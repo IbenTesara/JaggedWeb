@@ -26,91 +26,35 @@
     
         
         <div ng-app="JFDApp" ng-controller="SearchCTRL">
-            <p>{{start}}</p>
-        </div>
-        
-        <div class="card" id="startcard">
-            
+            <div id="searchBox"> <input type="text" ng-model="searchBox"></div>
+           
+            <div class="card" ng-repeat="animal in species | filter:searchBox">
                 <div class="panel panel-default">
-            
-            <div class="panel-heading"><h3>Deinonychus </h3> </div>
-            <div class="panel-title"><h4 class="myh4">Deinonychus antirrhopus</h4></div>
-            <div class="panel-body">
+                <div class="panel-heading"><h3>{{animal.firstName}} </h3> </div>
+            <div class="panel-title"><h4 class="myh4">{{animal.firstName + " " + animal.secondName}}</h4></div>
+                 <div class="panel-body">
                 
               
                    <div class="thumbnail">
-                <a href="../images/paraves/Deinonychus_Alternate.png" target="_blank"><img src="../images/paraves/Deinonychus_Neutral.png" alt="Deinonychus"/></a>
+                <a ng-href="../images/paraves/{{animal.firstName}}_Alternate.png" target="_blank"><img src="../images/paraves/{{animal.firstName}}_Neutral.png" alt="{{animal.firstName}}"/></a>
                 </div>
-                <p>Deinonychus antirrhopus is one of the best-known dromaeosaurid species, and is a close relative of the smaller Velociraptor, which is found in younger, Late Cretaceous–age rock formations in Central Asia. </p>
+                <p>{{animal.description}} </p>
                 
-                <a class="hvr-underline-from-center" target="_blank" href="#">Download</a>
+                <a class="hvr-underline-from-center" target="_blank" ng-href="{{animal.link}}">Download</a>
                 |
-                <a class="hvr-underline-from-center" href="../html/blends/Deinonychus.html" target="_blank">3D Preview</a>
+                <a class="hvr-underline-from-center" ng-href="../html/blends/{{animal.firstName}}.html" target="_blank">3D Preview</a>
             </div>
                 
             <div class="panel-footer clearfix">
                 
-             TBR
+             {{animal.date}}
             </div>
-        </div>
-
-        </div>
-        
-         <div class="card">
-            
-                <div class="panel panel-default">
-            
-            <div class="panel-heading"><h3>Austroraptor</h3></div>
-            <div class="panel-title"><h4 class="myh4">Austroraptor cabazai</h4></div>
-            <div class="panel-body">
                 
-              
-                   <div class="thumbnail">
-                <a href="../images/paraves/Austro_Alternate.png" target="_blank"><img src="../images/paraves/Austro_Neutral.png" alt="Austroraptor"/></a>
                 </div>
-                <p>Austroraptor is an extinct genus of dromaeosaurid dinosaur that lived about 70 million years ago during the Cretaceous Period in what is now modern Argentina.</p>
                 
-                <a class="hvr-underline-from-center" target="_blank" href="#">Download</a>
-                |
-                <a class="hvr-underline-from-center" href="../html/blends/Deinonychus.html" target="_blank">3D Preview</a>
-            </div>
-                
-            <div class="panel-footer clearfix">
-                
-             TBR
-            </div>
+       
         </div>
-
         </div>
-        
-                 <div class="card">
-            
-                <div class="panel panel-default">
-            
-            <div class="panel-heading"><h3>Velociraptor</h3></div>
-            <div class="panel-title"><h4 class="myh4">Velociraptor mongoliensis</h4></div>
-            <div class="panel-body">
-                
-              
-                   <div class="thumbnail">
-                 <a href="../images/paraves/Veloc_Alternate.png" target="_blank"><img src="../images/paraves/Veloc_Neutral.png" alt="Velociraptor"/></a>
-                </div>
-                <p>Velociraptor is a genus of dromaeosaurid theropod dinosaur that lived approximately 75 to 71 million years ago during the later part of the Cretaceous Period. </p>
-                
-                <a class="hvr-underline-from-center" target="_blank" href="#">Download</a>
-                |
-                <a class="hvr-underline-from-center" href="../html/blends/Deinonychus.html" target="_blank">3D Preview</a>
-            </div>
-                
-            <div class="panel-footer clearfix">
-                
-             TBR
-            </div>
-        </div>
-
-        </div>
-
-
         
   
         
