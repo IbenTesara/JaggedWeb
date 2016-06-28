@@ -1,1 +1,1 @@
-var app = angular.module('JFDApp',[]);
+var app = angular.module('JFDApp', ['ngAnimate']);

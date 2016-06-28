@@ -31,3 +31,15 @@
   left: 0;
   right: 0;
 }
+
+.card.ng-enter, .card.ng-leave{
+    transition: 500ms lineair all;
+}
+
+.card.ng-leave.ng-leave-active{
+    opacity: 0;
+}
+
+.card.ng-enter.ng-enter-active{
+    opacity: 1;
+}
