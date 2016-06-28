@@ -30,14 +30,15 @@
            
             <div class="card" ng-repeat="animal in species | filter:searchBox">
                 <div class="panel panel-default">
-                <div class="panel-heading"><h3>{{animal.firstName}} </h3> </div>
-            <div class="panel-title"><h4 class="myh4">{{animal.firstName + " " + animal.secondName}}</h4></div>
+                <div class="panel-heading"><h3>{{animal.firstName}} </h3></div>
+            <div class="panel-title"><h4 class="myh4">{{animal.firstName + " " + animal.secondName}}</h4> </div>
                  <div class="panel-body">
                 
               
                    <div class="thumbnail">
                 <a ng-href="../images/paraves/{{animal.firstName}}_Alternate.png" target="_blank"><img src="../images/paraves/{{animal.firstName}}_Neutral.png" alt="{{animal.firstName}}"/></a>
                 </div>
+                <h5 >{{animal.location + " | " + animal.food}}</h5>
                 <p>{{animal.description}} </p>
                 
                 <a class="hvr-underline-from-center" target="_blank" ng-href="{{animal.link}}">Download</a>

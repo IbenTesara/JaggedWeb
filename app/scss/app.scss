@@ -132,7 +132,11 @@ body{
             }
             }
         
-        
+        h5{
+            font-weight: bold;
+            font-size: 0.9em;
+            text-align: left;
+        }
         
     }
     
@@ -188,6 +192,7 @@ body{
         color: whitesmoke;
         margin-bottom: $default-margin;
     }
+    
     
     
     
