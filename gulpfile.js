@@ -117,5 +117,7 @@ gulp.task('default', ['browserSync', 'vendors', 'sass'], function(){
   gulp.watch('app/*.html',['html'])
   .on('change',browserSync.reload);
     gulp.watch('app/html/**/*.html',browserSync.reload);
+    gulp.watch('app/css/vendors.css',browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload); 
+    gulp.watch('app/json/**/*.json',browserSync.reload);
 });

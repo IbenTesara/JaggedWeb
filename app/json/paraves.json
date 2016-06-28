@@ -1,28 +1,47 @@
-[{
+[
+    {
+    "commonName" : "",
 	"firstName": "Deinonychus",
 	"secondName": "antirrhopus",
 	"description": "Deinonychus antirrhopus is one of the best-known dromaeosaurid species, and is a close relative of the smaller Velociraptor, which is found in younger, Late Cretaceous–age rock formations in Central Asia. ",
 	"continent": "North-America",
 	"location": "Montana-Utah-Wyoming-Oklahoma",
 	"food": "Carnivore",
+    "time": "Early Cretaceous",
 	"date": "TBR",
 	"link": "x"
 }, {
+    "commonName" : "",
 	"firstName": "Austroraptor",
 	"secondName": "cabazai",
 	"description": "Austroraptor is an extinct genus of dromaeosaurid dinosaur that lived about 70 million years ago during the Cretaceous Period in what is now modern Argentina.",
 	"continent": "South-America",
 	"location": "Argentina",
 	"food": "Piscivore",
+    "time": "Late Cretaceous",
 	"date": "TBR",
 	"link": "x"
 }, {
+    "commonName" : "",
 	"firstName": "Velociraptor",
 	"secondName": "mongoliensis",
 	"description": "Velociraptor is a genus of dromaeosaurid theropod dinosaur that lived approximately 75 to 71 million years ago during the later part of the Cretaceous Period..",
 	"continent": "Asia",
 	"location": "Mongolia",
 	"food": "Carnivore",
+    "time": "Late Cretaceous",
 	"date": "TBR",
 	"link": "x"
-}]
+}, {
+    "commonName" : "Dodo",
+	"firstName": "Raphus",
+	"secondName": "cucullatus",
+	"description": "The dodo is an extinct flightless bird that was endemic to the island of Mauritius, east of Madagascar in the Indian Ocean. The species died out before 1700, less than a hundred years after encountering men.",
+	"continent": "Africa",
+	"location": "Mauritus",
+	"food": "Fruitivore",
+    "time": "Holocene",
+	"date": "TBR",
+	"link": "x"
+}
+]
