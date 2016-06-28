@@ -16,98 +16,26 @@
   <![endif]-->
 </head>
 
-<body>
+<body  ng-app="JFDApp">
     
     <div class="standarddiv" id="mytopbar">
       <h1 class="myh1">Downloads | Jagged Fang Designs</h1>
-    <a href="html/raptors.html">Paraves</a>
     </div>
     <div class="standarddiv" id="mycontent">
     
         
-  
-        
-        <div class="card" id="startcard">
-            
-                <div class="panel panel-default">
-            
-            <div class="panel-heading"><h3>Leaellynasaura</h3></div>
-            <div class="panel-title"><h4 class="myh4">Leaellynasaura amigraphica</h4></div>
-            <div class="panel-body">
-                
-              
-                   <div class="thumbnail">
-                <img src="images/leaellynasaura.jpg" alt="Leaellynasaura"/>
-                </div>
-                <p>Leaellynasaura (meaning "Leaellyn's lizard") is a genus of small herbivorous ornithischian dinosaurs from the Albian stage of the Early Cretaceous (dated to between 118 and 110 million years ago), first discovered in Dinosaur Cove, Australia. </p>
-                
-                <a class="hvr-underline-from-center" target="_blank" href="http://www.mediafire.com/download/od2u3vdfxjflecs/zzz~JFD~Leaellynasaura.z2f">Download</a>
-            </div>
-                
-            <div class="panel-footer clearfix">
-                
-             Dec 20 2012
-            </div>
-        </div>
-
-        </div>
-        
-         <div class="card">
-            
-                <div class="panel panel-default">
-            
-            <div class="panel-heading"><h3>Minmi</h3></div>
-            <div class="panel-title"><h4 class="myh4">Minmi paravertebra</h4></div>
-            <div class="panel-body">
-                
-              
-                   <div class="thumbnail">
-                <img src="images/minmi.jpg" alt="Minmi"/>
-                </div>
-                <p>Minmi is a genus of small herbivorous ankylosaurian dinosaur that lived during the early Cretaceous Period of Australia, about 119 to 113 million years ago.</p>
-                
-                <a class="hvr-underline-from-center" target="_blank" href="http://www.mediafire.com/download/5pfk855t8jyseyl/zzz~JFD~Minmi.z2f">Download</a>
-            </div>
-                
-            <div class="panel-footer clearfix">
-                
-             Jan 1 2013
-            </div>
-        </div>
-
-        </div>
-        
-                 <div class="card">
-            
-                <div class="panel panel-default">
-            
-            <div class="panel-heading"><h3>Aurochs</h3></div>
-            <div class="panel-title"><h4 class="myh4">Bos primigenius</h4></div>
-            <div class="panel-body">
-                
-              
-                   <div class="thumbnail">
-                <img src="images/aurochs.png" alt="Aurochs"/>
-                </div>
-                <p>The aurochs (Bos primigenius), is an extinct type of large wild cattle that inhabited Europe, Asia and North Africa. It is the ancestor of domestic cattle. .</p>
-                
-                <a class="hvr-underline-from-center" target="_blank" href="http://www.mediafire.com/download/97g23upbmafafvm/X_JaggedFangDesigns_Aurochs_GenerationII.z2F">Download</a>
-            </div>
-                
-            <div class="panel-footer clearfix">
-                
-             Mar 16 2015
-            </div>
-        </div>
-
-        </div>
+  <div ng-include="'raptors.html'"></div>
+     
 
 
-        
+        Hello world !
   
         
 </div>
     <footer>&copy; Jagged Fang Designs</footer>
-  <script src="js/scripts.js"></script>
 </body>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js//Controllers/SearchController.js"></script>
 </html>

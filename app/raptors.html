@@ -1,32 +1,10 @@
-<!doctype html>
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Downloads | Jagged Fang Designs</title>
-  <meta name="description" content="Jagged Fang Designs Downloads">
-  <meta name="author" content="Iben Van de Veire">
-
-  <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/vendors.css">
-
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-    
-    <div class="standarddiv" id="mytopbar">
-      <h1 class="myh1">Downloads | Jagged Fang Designs</h1>
-    <a href="../html/raptors.html">Paraves</a>
-    </div>
-    <div class="standarddiv" id="mycontent">
-    
         
-        <div ng-app="JFDApp" ng-controller="SearchCTRL">
-            <div id="searchBox"> <input type="text" ng-model="searchBox"></div>
+        <div ng-controller="SearchCTRL">
+            <div id="searchBox">
+                <div><p>Continent</p><input type="text" ng-model="searchBox.continent"></div>
+                <div><p>Location</p><input type="text" ng-model="searchBox.location"></div>
+                <div><p>Food-type</p><input type="text" ng-model="searchBox.food"></div></div>
            
             <div class="card" ng-repeat="animal in species | filter:searchBox">
                 <div class="panel panel-default">
@@ -38,7 +16,6 @@
                    <div class="thumbnail">
                 <a ng-href="../images/paraves/{{animal.firstName}}_Alternate.png" target="_blank"><img src="../images/paraves/{{animal.firstName}}_Neutral.png" alt="{{animal.firstName}}"/></a>
                 </div>
-                <h5 >{{animal.location + " | " + animal.food}}</h5>
                 <p>{{animal.description}} </p>
                 
                 <a class="hvr-underline-from-center" target="_blank" ng-href="{{animal.link}}">Download</a>
@@ -56,17 +33,3 @@
        
         </div>
         </div>
-        
-  
-        
-</div>
-    
-    <footer>&copy; Jagged Fang Designs</footer>
-  <script src="js/scripts.js"></script>
-</body>
-    
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-    <script src="../js/app.js"></script>
-    <script src="../js//Controllers/SearchController.js"></script>
-
-</html>
