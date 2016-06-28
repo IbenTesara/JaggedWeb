@@ -1,0 +1,13 @@
+# Blender MTL File: 'Deinonychus.blend'
+# Material Count: 1
+
+newmtl Material.000001
+Ns 11.764706
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd Deinonychus_Adult_M.dds
