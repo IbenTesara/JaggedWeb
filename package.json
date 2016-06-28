@@ -9,8 +9,11 @@
   "author": "Iben Van de Veire",
   "license": "ISC",
   "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "del": "^2.2.1",
     "gulp": "^3.9.1",
     "gulp-inject": "^4.1.0",
-    "gulp-sass": "^2.3.2"
+    "gulp-sass": "^2.3.2",
+    "wiredep": "^4.0.0"
   }
 }
