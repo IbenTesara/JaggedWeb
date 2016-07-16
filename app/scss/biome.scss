@@ -1,0 +1,50 @@
+$border-bottom-p: 0.2em solid #1d8485;
+#biomelist {
+    overflow: scroll;
+    height: auto;
+    text-align: left;
+    max-height: 50em;
+    padding: 1em;
+    padding-left:0;
+    border-left: $border-bottom-p;
+    border-right: $border-bottom-p;
+    div {
+
+        border-radius: 50%;
+        color: transparent;
+        overflow: hidden;
+        width: 1em;
+        height: 1em;
+        display: inline-block;
+    }
+    
+    li{
+        list-style: none;
+        padding: 0.3em;
+        margin-bottom: 0.3em;
+    }
+    
+    span{
+        margin-right: 0.5em;
+    }
+}
+
+.Cold {
+    background-color: aliceblue;
+}
+
+.Temperate {
+    background-color: darkseagreen;
+}
+
+.Tropical {
+    background-color: gold;
+}
+
+.Dry {
+    background-color: sandybrown;
+}
+
+.Mixed {
+    background-color: cadetblue;
+}

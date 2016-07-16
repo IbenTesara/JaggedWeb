@@ -1,179 +1,138 @@
-
 // bower:scss
 // endbower
-
 // Sizes
-$center-of-screen : 80%;
-$top-bar : 20%;
+$center-of-screen: 80%;
+$top-bar: 20%;
 $default-padding: 2em;
 $default-margin: 5%;
-$card-size : 30em;
+$card-size: 30em;
 $card-margin: 3%;
-$title-padding : 1em;
-$button-padding : 0.7em;
-
+$title-padding: 1em;
+$button-padding: 0.7em;
 //Colours
-$white-color : #eeeeee;
-$grey-color : #d4d5d6;
-$grey2-color : #cccccc;
-$body-color : #4d6372;
+$white-color: #eeeeee;
+$grey-color: #d4d5d6;
+$grey2-color: #cccccc;
+$body-bg: #4d6372 !important;
 $border-color: #1d8485;
-$top : #dcdee1;
+$top: #dcdee1;
 $bottom: #c7c8c9;
-
 //Borders
-$border-bottom : 0.5em solid #1d8485;
-$border-bottom-p : 0.2em solid #1d8485;
-$border : 0.1em solid lightgrey;
-
-
+$border-bottom: 0.5em solid #1d8485;
+$border-bottom-p: 0.2em solid #1d8485;
+$border-bottom-b: 0.04em solid #1d8485;
+$border-b: 0.04em solid cadetblue;
+$border: 0.1em solid lightgrey;
 //_______________________________________________________________________________________________________________________________________
-
-
 @mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
-  background-clip: padding-box;  
+    -webkit-border-radius: $radius;
+    border-radius: $radius;
+    background-clip: padding-box;
 }
 
-@mixin center{
+@mixin center {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    tranform: translate(-50%,-50%);
+    tranform: translate(-50%, -50%);
 }
 
-@mixin border (){
-    border : $border-bottom-p;
+@mixin border () {
+    border: $border-bottom-p;
 }
 
-@mixin innershadow($shadow){
+@mixin innershadow($shadow) {
     box-shadow: inset $shadow;
 }
 
-@mixin box-shadow($shadow: 1px 1px 3px rgba(0,0,0,0.25)) {
-  -webkit-box-shadow: $shadow;
-     -moz-box-shadow: $shadow;
-          box-shadow: $shadow;
+@mixin box-shadow($shadow: 1px 1px 3px rgba(0, 0, 0, 0.25)) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
 }
 
-@mixin gradient(){
-    background: $bottom; 
+@mixin gradient() {
+    background: $bottom;
     background: -webkit-linear-gradient($top, $bottom);
     background: -o-linear-gradient($top, $bottom);
     background: -moz-linear-gradient($top, $bottom);
-    background: linear-gradient($top, $bottom); 
-
+    background: linear-gradient($top, $bottom);
 }
-//________________________________________________________________________________________________________________________________________
 
-body{
-    background-color: $body-color;
-    
-    
-    .standarddiv{
+//________________________________________________________________________________________________________________________________________
+body {
+    .standarddiv {
         margin-left: $default-margin;
         margin-right: $default-margin;
         @include box-shadow;
-        
     }
-    
-    .card{
+    .card {
         width: $card-size;
         margin: $card-margin;
         text-align: center;
         display: inline-block;
-        
-        
-        p{
+        p {
             margin-top: 1em;
             margin-bottom: 2em;
             padding: $button-padding;
             text-align: left;
             height: 8em;
-            
         }
-        
-        a{
+        a {
             padding: $button-padding;
             font-weight: bold;
-            
-            &:hover{
+            &:hover {
                 text-decoration: none;
                 font-weight: bolder;
             }
-            
         }
-        
-        h3{
+        h3 {
             text-align: left;
         }
-        
-        h4{
+        h4 {
             padding: 0.2em;
             margin-left: 1em;
             font-style: italic;
             text-align: left;
             color: $border-color;
         }
-        
-        .thumbnail{
-            
-            a{
+        .thumbnail {
+            a {
                 padding: 0;
                 margin-left: 1em;
-                
-                }
-            
-            
-            &:hover{
-                
+            }
+            &:hover {
                 @include border;
             }
-            }
-        
-        h5{
+        }
+        h5 {
             font-weight: bold;
             font-size: 0.9em;
             text-align: left;
         }
-        
     }
-    
-    
-    .myh1{
+    .myh1 {
         padding: $title-padding;
     }
-    
-    .panel-heading{
-        
-        a{
+    .panel-heading {
+        a {
             padding: 0px;
         }
     }
-    
-    
-    #searchBox{
-        
-        div{
+    #searchBox {
+        div {
             display: inline-block;
-            margin-left:$default-margin;
-            
+            margin-left: $default-margin;
         }
-        
-        p{
+        p {
             font-weight: bold;
             border-bottom: $border-bottom-p;
         }
-        
-        
     }
-    
-    #startcard{
+    #startcard {
         float: none;
     }
-    
-    #mycontent{
+    #mycontent {
         text-align: center;
         background-color: $white-color;
         min-height: 60em;
@@ -183,29 +142,31 @@ body{
         border-top: 0px solid $border;
         @include border-radius(0.2em);
     }
-    
-    #mytopbar{
-        
+    #pageinfo {
+        p {
+            text-align: left;
+        }
+    }
+    #mytopbar {
         border-bottom: $border-bottom;
         margin-top: $default-margin;
         min-height: 3em;
         text-align: right;
-        
         @include gradient;
         
-        a{
-            margin-right: $default-margin;
+        a {
+            background-color: cadetblue;
+            border: $border-b;
+            &:hover {
+                background-color: $border-color;
+                border-bottom: $border-bottom-b;
+                color: white;
+            }
         }
     }
-    
-    
-    footer{
+    footer {
         text-align: center;
         color: whitesmoke;
         margin-bottom: $default-margin;
     }
-    
-    
-    
-    
 }

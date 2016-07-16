@@ -1,0 +1,34 @@
+<div ng-controller="BiomeCTRL">
+    <div id="searchBox">
+        <div>
+            <p>Climate</p>
+            <input type="text" ng-model="searchBox.Climate"> </div>
+        <div>
+            <p>Type</p>
+            <input type="text" ng-model="searchBox.Type"> </div>
+        <div>
+            <p>Subtype</p>
+            <input type="text" ng-model="searchBox.Subtype"> </div>
+                    <div>
+            <p>Location</p>
+            <input type="text" ng-model="searchBox.Location"> </div>
+    </div>
+    <br>
+    <div id="biomelist" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <ul>
+            <li ng-repeat="biome in biomes | filter:searchBox" >
+            <div class="{{biome.Climate}}">{{biome.Climate}}</div>
+            {{biome.Name}}
+            <span style="float:right;"  ng-if="biome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
+            <span style="float:right;"  ng-if="biome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
+            <span style="float:right;"  ng-if="biome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span>
+            <span style="float:right;"  ng-if="biome.Subtype=='Freshwater'" class="glyphicon glyphicon-tint"></span>
+            </li>
+        </ul>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6"> y</div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"> 
+    {{currentBiome}}
+    
+    </div>
+</div>

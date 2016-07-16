@@ -1,0 +1,352 @@
+[
+    {
+        "Name": "Subnival Tundra"
+        , "ID": 1
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Alpine"
+    }
+    , {
+        "Name": "Temperate Alpine Tundra"
+        , "ID": 2
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Alpine"
+    }
+    , {
+        "Name": "Tropical Alpine Tundra"
+        , "ID": 3
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Alpine"
+    }
+    , {
+        "Name": "Temperate Montane Forest"
+        , "ID": 4
+        , "Climate": "Cold"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+    }
+    , {
+        "Name": "Tropical Montane Forest"
+        , "ID": 5
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+    }
+    , {
+        "Name": "Temperate Coniferous Forest"
+        , "ID": 6
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+    }
+    , {
+        "Name": "Tropical Coniferous Forest"
+        , "ID": 7
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+    }
+    , {
+        "Name": "Temperate Decidous Forest"
+        , "ID": 8
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+    }
+    , {
+        "Name": "Tropical Evergreen Rainforest"
+        , "ID": 9
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+    }
+    , {
+        "Name": "Temperate Evergreen Rainforest"
+        , "ID": 10
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+    }
+    , {
+        "Name": "Tropical Dry Forest"
+        , "ID": 11
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+    }
+    , {
+        "Name": "Eucalypt Dry Forest"
+        , "ID": 12
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+    }
+    , {
+        "Name": "Maritime Forest"
+        , "ID": 13
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+    }
+    , {
+        "Name": "Temperate Scrubland"
+        , "ID": 14
+        , "Climate": "Temperate"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Tropical Scrubland"
+        , "ID": 15
+        , "Climate": "Tropical"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Mediterranean Scrubland"
+        , "ID": 16
+        , "Climate": "Temperate"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Semi-arid Scrubland"
+        , "ID": 17
+        , "Climate": "Dry"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Lichen Scrubland"
+        , "ID": 18
+        , "Climate": "Temperate"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Equatorrial Savannah"
+        , "ID": 19
+        , "Climate": "Tropical"
+        , "Type": "Grassland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Terrai-Duar Savannah"
+        , "ID": 20
+        , "Climate": "Tropical"
+        , "Type": "Grassland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Cerrado"
+        , "ID": 21
+        , "Climate": "Tropical"
+        , "Type": "Grassland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Temperate Grassland"
+        , "ID": 22
+        , "Climate": "Temperate"
+        , "Type": "Grassland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Prairie"
+        , "ID": 23
+        , "Climate": "Temperate"
+        , "Type": "Grassland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Steppe"
+        , "ID": 24
+        , "Climate": "Temperate"
+        , "Type": "Grassland"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Arctic Tundra"
+        , "ID": 25
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Ice"
+    }
+    , {
+        "Name": "Semi-Arid Desert"
+        , "ID": 26
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Arid-Desert"
+        , "ID": 27
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Coastal Desert"
+        , "ID": 28
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Red Desert"
+        , "ID": 29
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Cold Desert"
+        , "ID": 30
+        , "Climate": "Cold"
+        , "Type": "Desert"
+        , "Subtype": "x"
+    }
+    , {
+        "Name": "Ice Desert"
+        , "ID": 31
+        , "Climate": "Cold"
+        , "Type": "Desert"
+        , "Subtype": "Ice"
+    }
+    , {
+        "Name": "Freshwater Marsh"
+        , "ID": 32
+        , "Climate": "Mixed"
+        , "Type": "Marsh"
+        , "Subtype": "Freshwater"
+    }
+    , {
+        "Name": "Saltwater Marsh"
+        , "ID": 33
+        , "Climate": "Mixed"
+        , "Type": "Marsh"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Tropical Floodplain"
+        , "ID": 34
+        , "Climate": "Tropical"
+        , "Type": "Floodplain"
+        , "Subtype": "Freshwater"
+    }
+    , {
+        "Name": "Temperate Floodplain"
+        , "ID": 35
+        , "Climate": "Temperate"
+        , "Type": "Floodplain"
+        , "Subtype": "Freshwater"
+    }
+    , {
+        "Name": "Mudflat"
+        , "ID": 36
+        , "Climate": "Mixed"
+        , "Type": "Floodplain"
+        , "Subtype": "Freshwater"
+    }
+    , {
+        "Name": "Palustrine Swamp"
+        , "ID": 37
+        , "Climate": "Mixed"
+        , "Type": "Swamp"
+        , "Subtype": "Freshwater"
+    }
+    , {
+        "Name": "Coastal Swamp"
+        , "ID": 38
+        , "Climate": "Tropical"
+        , "Type": "Swamp"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Temperate Coastal Plain"
+        , "ID": 39
+        , "Climate": "Temperate"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Tropical Coastal Plain"
+        , "ID": 40
+        , "Climate": "Tropical"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Arctic Coastal Plain"
+        , "ID": 41
+        , "Climate": "Cold"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Temperate Coast"
+        , "ID": 42
+        , "Climate": "Temperate"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Tropical Coast"
+        , "ID": 43
+        , "Climate": "Tropical"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Rocky Coast"
+        , "ID": 44
+        , "Climate": "Mixed"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Tropical Ocean"
+        , "ID": 45
+        , "Climate": "Tropical"
+        , "Type": "Marine"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Temperate Ocean"
+        , "ID": 46
+        , "Climate": "Temperate"
+        , "Type": "Marine"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Benthic"
+        , "ID": 47
+        , "Climate": "Mixed"
+        , "Type": "Marine"
+        , "Subtype": "Saltwater"
+    }
+    , {
+        "Name": "Tropical Volcanic Forest"
+        , "ID": 48
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+    }
+    , {
+        "Name": "Fern Plain"
+        , "ID": 49
+        , "Climate": "Mixed"
+        , "Subtype": "Fern"
+    }
+    , {
+        "Name": "Polar Winter Forest"
+        , "ID": 50
+        , "Climate": "Cold"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+    }
+
+]
