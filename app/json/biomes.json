@@ -8,7 +8,9 @@
         "Location": [],
         "Info": "<p>The highest zone that vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization.</p> <p>Vegetation is patchy and is restricted to only the most favorable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p> <p>Snow is found in this region for part of the year.</p>",
         "Elevation": "> 2500m",
-        "Precipitation": ""
+        "Precipitation": "30cm",
+        "Temperature": "1°C",
+        "Image": "banner_subnivaltundra"
     }
     , {
         "Name": "Temperate Alpine Tundra",
@@ -17,7 +19,8 @@
         "Type": "Tundra",
         "Subtype": "Alpine",
         "Elevation": "> 1900m",
-        "Precipitation": ""
+        "Precipitation": "30cm",
+        "Temperature": "3°C"
     }
     , {
         "Name": "Tropical Alpine Tundra",
@@ -26,7 +29,8 @@
         "Type": "Tundra",
         "Subtype": "Alpine",
         "Elevation": "> 1900m",
-        "Precipitation": ""
+        "Precipitation": "30cm",
+        "Temperature": "3°C"
     }
     , {
         "Name": "Temperate Montane Forest",
@@ -44,7 +48,8 @@
         "Type": "Forest",
         "Subtype": "Mixed",
         "Elevation": "< 3300m",
-        "Precipitation": ""
+        "Precipitation": "150cm",
+        "Temperature": "14°C"
     }
     , {
         "Name": "Temperate Coniferous Forest",
@@ -55,7 +60,8 @@
         "Locations": [],
         "Info": "<p>Temperate coniferous forest is a terrestrial biome found in temperate regions of the world with warm summers and cool winters and adequate rainfall to sustain a forest.</p><p>In most temperate coniferous forests, evergreen conifers predominate, while some are a mix of conifers and broadleaf evergreen trees and/or broadleaf deciduous trees.</p><p>Temperate coniferous forests are common in the coastal areas of regions that have mild winters and heavy rainfall, or inland in drier climates or mountain areas.</p>",
         "Elevation": "NA",
-        "Precipitation": ""
+        "Precipitation": "90cm",
+        "Temperature": "10°C"
     }
     , {
         "Name": "Tropical Coniferous Forest",
@@ -66,7 +72,8 @@
         "Locations": [],
         "Info": "<p>Tropical and subtropical coniferous forests are a forest biome.</p><p>They are located in regions of humid climate at tropical and subtropical latitudes. Most tropical and subtropical coniferous forest ecoregions are found in the Nearctic and Neotropic ecozones.</p><p>Outside the Americas and the Greater Ranges of Asia they are rare and predominate on islands.</p>",
         "Elevation": "NA",
-        "Precipitation": ""
+        "Precipitation": "150cm",
+        "Temperature": "18°C"
     }
     , {
         "Name": "Temperate Decidous Forest",
@@ -77,7 +84,8 @@
         "Locations": [],
         "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>",
         "Elevation": "NA",
-        "Precipitation": ""
+        "Precipitation": "150cm",
+        "Temperature": "10°C"
     }
     , {
         "Name": "Tropical Evergreen Rainforest",
@@ -128,7 +136,7 @@
         "ID": 14,
         "Climate": "Temperate",
         "Type": "Scrubland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -136,7 +144,7 @@
         "ID": 15,
         "Climate": "Tropical",
         "Type": "Scrubland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -168,7 +176,7 @@
         "ID": 19,
         "Climate": "Tropical",
         "Type": "Grassland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -176,7 +184,7 @@
         "ID": 20,
         "Climate": "Tropical",
         "Type": "Grassland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -184,7 +192,7 @@
         "ID": 21,
         "Climate": "Tropical",
         "Type": "Grassland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -192,7 +200,7 @@
         "ID": 22,
         "Climate": "Temperate",
         "Type": "Grassland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -200,7 +208,7 @@
         "ID": 23,
         "Climate": "Temperate",
         "Type": "Grassland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {
@@ -208,7 +216,7 @@
         "ID": 24,
         "Climate": "Temperate",
         "Type": "Grassland",
-        "Subtype": "x",
+        "Subtype": "Grass",
         "Elevation": "NA"
     }
     , {

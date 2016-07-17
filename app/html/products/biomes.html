@@ -16,13 +16,9 @@
     <br>
     <div id="biome-list" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <ul>
-            <li ng-repeat="biome in biomes | filter:searchBox">
+            <li ng-repeat="biome in biomes | orderBy: '+Climate' | filter:searchBox">
                 <div class="{{biome.Climate}}">{{biome.Climate}}</div>
                 <a href="" ng-click="getBiome(biome.ID)">{{biome.Name}}</a>
-                <span style="float:right;" ng-if="biome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
-                <span style="float:right;" ng-if="biome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
-                <span style="float:right;" ng-if="biome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span>
-                <span style="float:right;" ng-if="biome.Subtype=='Freshwater'" class="glyphicon glyphicon-tint"></span>
             </li>
         </ul>
     </div>
@@ -43,13 +39,19 @@
             </div>
             <div class="panel-body">
                 <div ng-if="currentDiv==='info'">
+                    <img class="biome-preview" src="../../images/biomes/{{currentBiome.Image}}.png">
                     <h3>
                     {{currentBiome.Name}}</h3>
-                    <div class="{{currentBiome.Climate}}" id="climate">{{currentBiome.Climate}}</div>
+                    <div class="{{currentBiome.Climate}}" id="climate">
+                        <span ng-if="currentBiome.Climate==='Cold'" class="ion-ios-snowy"></span>
+                        {{currentBiome.Climate}}</div>
                     <div id="type">
                         <span ng-if="currentBiome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
                         <span ng-if="currentBiome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
-                        <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span> {{currentBiome.Type}}
+                        <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span> 
+                        <span ng-if="currentBiome.Subtype=='Grass'" class="glyphicon glyphicon-grain"></span>
+                        <span ng-if="currentBiome.Subtype=='Ice'" class="ion-ios-snowy"></span>
+                        {{currentBiome.Type}}
                     </div>
                     <div id="elevation">{{currentBiome.Elevation}}</div>
                     <div id="precipitation"><span class="glyphicon glyphicon-tint"></span>{{currentBiome.Precipitation}}</div>

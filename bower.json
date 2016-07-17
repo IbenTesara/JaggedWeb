@@ -18,5 +18,8 @@
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
     "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "ionicons": "~2.0.1"
   }
 }
