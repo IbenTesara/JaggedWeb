@@ -16,7 +16,11 @@
 <body ng-app="JFDApp">
     <div class="standarddiv" id="mytopbar">
         <h1 class="myh1">Downloads | Jagged Fang Designs</h1>
-        <div class="btn-group"> <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-home"></span> Home</a> <a href="#about" class="btn btn-default"><span class="glyphicon glyphicon-tree-conifer"></span> About</a> <a href="#products" class="btn btn-default"><span class="glyphicon glyphicon-list-alt"></span> Products</a> <a href="#downloads" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> Downloads</a> </div>
+        <div class="btn-group">
+            <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-home"></span> Home</a>
+            <a href="#about" class="btn btn-default"><span class="glyphicon glyphicon-tree-conifer"></span> About</a>
+            <a href="#products" class="btn btn-default"><span class="glyphicon glyphicon-list-alt"></span> Products</a>
+            <a href="#downloads" class="btn btn-default"><span class="glyphicon glyphicon-save"></span> Downloads</a> </div>
     </div>
     <div class="standarddiv" id="mycontent">
         <div ng-view></div>
@@ -29,6 +33,7 @@
 <script src="../js/app.js"></script>
 <script src="../js//Controllers/SearchController.js"></script>
 <script src="../js//Controllers/BiomeController.js"></script>
+<script src="../js//Services/BiomeService.js"></script>
 <script src="../js//route.js"></script>
 
 </html>

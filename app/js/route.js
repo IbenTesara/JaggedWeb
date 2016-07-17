@@ -6,7 +6,13 @@
                 }).when('/products', {
                     templateUrl: 'html/products.html'
                 }).when('/biomes', {
-                    templateUrl: 'html/products/biomes.html'
+                    templateUrl: 'html/products/biomes.html',
+                    controller: "BiomeCTRL",
+                    resolve: {
+                        biomes: ["biomeService", function (biomeService) {
+                            return biomeService.load();
+                    }]
+                    }
                 }).otherwise({
                     redirectTo: '/'
                 });
