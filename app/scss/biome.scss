@@ -56,6 +56,18 @@ $border-bottom-p: 0.2em solid #1d8485;
         display: inline-block;
         margin-left: 1em;
     }
+    #elevation {
+        color: ghostwhite;
+        background-color: mediumseagreen;
+        text-align: center;
+        border-radius: 10%;
+        padding: 0.1em;
+        min-width: 7em;
+        max-width: 8em;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1em;
+    }
 }
 
 .biome-page {
