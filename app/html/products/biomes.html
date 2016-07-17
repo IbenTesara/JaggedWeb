@@ -1,4 +1,4 @@
-<div ng-controller="BiomeCTRL">
+<div>
     <div id="searchBox">
         <div>
             <p>Climate</p>
@@ -18,7 +18,7 @@
         <ul>
             <li ng-repeat="biome in biomes | filter:searchBox">
                 <div class="{{biome.Climate}}">{{biome.Climate}}</div>
-                <a href="" ng-click="setCurrentBiome($index)">{{biome.Name}}</a>
+                <a href="" ng-click="getBiome(biome.ID)">{{biome.Name}}</a>
                 <span style="float:right;" ng-if="biome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
                 <span style="float:right;" ng-if="biome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
                 <span style="float:right;" ng-if="biome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span>
@@ -28,7 +28,7 @@
     </div>
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6"> y</div>
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        x
+        {{currentBiome}}
 
     </div>
 </div>
