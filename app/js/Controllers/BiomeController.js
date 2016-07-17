@@ -7,5 +7,9 @@ app.controller("BiomeCTRL", ["$scope", "biomes", function ($scope, biomes) {
                 $scope.currentBiome = biomes.data[i];
             }
         }
+    };
+    $scope.currentDiv = "info";
+    $scope.setCurrentDiv = function (div) {
+        $scope.currentDiv = div;
     }
     }]);

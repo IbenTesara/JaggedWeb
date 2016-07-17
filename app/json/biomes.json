@@ -1,352 +1,360 @@
 [
     {
-        "Name": "Subnival Tundra"
-        , "ID": 1
-        , "Climate": "Cold"
-        , "Type": "Tundra"
-        , "Subtype": "Alpine"
+        "Name": "Subnival Tundra",
+        "ID": 1,
+        "Climate": "Cold",
+        "Type": "Tundra",
+        "Subtype": "Alpine",
+        "Location": [],
+        "Info": "<p>The highest zone that vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization.</p> <p>Vegetation is patchy and is restricted to only the most favorable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p> <p>Snow is found in this region for part of the year.</p>"
     }
     , {
-        "Name": "Temperate Alpine Tundra"
-        , "ID": 2
-        , "Climate": "Cold"
-        , "Type": "Tundra"
-        , "Subtype": "Alpine"
+        "Name": "Temperate Alpine Tundra",
+        "ID": 2,
+        "Climate": "Cold",
+        "Type": "Tundra",
+        "Subtype": "Alpine"
     }
     , {
-        "Name": "Tropical Alpine Tundra"
-        , "ID": 3
-        , "Climate": "Cold"
-        , "Type": "Tundra"
-        , "Subtype": "Alpine"
+        "Name": "Tropical Alpine Tundra",
+        "ID": 3,
+        "Climate": "Cold",
+        "Type": "Tundra",
+        "Subtype": "Alpine"
     }
     , {
-        "Name": "Temperate Montane Forest"
-        , "ID": 4
-        , "Climate": "Cold"
-        , "Type": "Forest"
-        , "Subtype": "Mixed"
+        "Name": "Temperate Montane Forest",
+        "ID": 4,
+        "Climate": "Cold",
+        "Type": "Forest",
+        "Subtype": "Mixed"
     }
     , {
-        "Name": "Tropical Montane Forest"
-        , "ID": 5
-        , "Climate": "Tropical"
-        , "Type": "Forest"
-        , "Subtype": "Mixed"
+        "Name": "Tropical Montane Forest",
+        "ID": 5,
+        "Climate": "Tropical",
+        "Type": "Forest",
+        "Subtype": "Mixed"
     }
     , {
-        "Name": "Temperate Coniferous Forest"
-        , "ID": 6
-        , "Climate": "Temperate"
-        , "Type": "Forest"
-        , "Subtype": "Coniferous"
+        "Name": "Temperate Coniferous Forest",
+        "ID": 6,
+        "Climate": "Temperate",
+        "Type": "Forest",
+        "Subtype": "Coniferous",
+        "Locations": [],
+        "Info": "<p>Temperate coniferous forest is a terrestrial biome found in temperate regions of the world with warm summers and cool winters and adequate rainfall to sustain a forest.</p><p>In most temperate coniferous forests, evergreen conifers predominate, while some are a mix of conifers and broadleaf evergreen trees and/or broadleaf deciduous trees.</p><p>Temperate coniferous forests are common in the coastal areas of regions that have mild winters and heavy rainfall, or inland in drier climates or mountain areas.</p>"
     }
     , {
-        "Name": "Tropical Coniferous Forest"
-        , "ID": 7
-        , "Climate": "Tropical"
-        , "Type": "Forest"
-        , "Subtype": "Coniferous"
+        "Name": "Tropical Coniferous Forest",
+        "ID": 7,
+        "Climate": "Tropical",
+        "Type": "Forest",
+        "Subtype": "Coniferous",
+        "Locations": [],
+        "Info": "<p>Tropical and subtropical coniferous forests are a forest biome.</p><p>They are located in regions of humid climate at tropical and subtropical latitudes. Most tropical and subtropical coniferous forest ecoregions are found in the Nearctic and Neotropic ecozones.</p><p>Outside the Americas and the Greater Ranges of Asia they are rare and predominate on islands.</p>"
     }
     , {
-        "Name": "Temperate Decidous Forest"
-        , "ID": 8
-        , "Climate": "Temperate"
-        , "Type": "Forest"
-        , "Subtype": "Deciduos"
+        "Name": "Temperate Decidous Forest",
+        "ID": 8,
+        "Climate": "Temperate",
+        "Type": "Forest",
+        "Subtype": "Deciduos",
+        "Locations": [],
+        "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>"
     }
     , {
-        "Name": "Tropical Evergreen Rainforest"
-        , "ID": 9
-        , "Climate": "Tropical"
-        , "Type": "Forest"
-        , "Subtype": "Deciduos"
+        "Name": "Tropical Evergreen Rainforest",
+        "ID": 9,
+        "Climate": "Tropical",
+        "Type": "Forest",
+        "Subtype": "Deciduos"
     }
     , {
-        "Name": "Temperate Evergreen Rainforest"
-        , "ID": 10
-        , "Climate": "Temperate"
-        , "Type": "Forest"
-        , "Subtype": "Mixed"
+        "Name": "Temperate Evergreen Rainforest",
+        "ID": 10,
+        "Climate": "Temperate",
+        "Type": "Forest",
+        "Subtype": "Mixed"
     }
     , {
-        "Name": "Tropical Dry Forest"
-        , "ID": 11
-        , "Climate": "Tropical"
-        , "Type": "Forest"
-        , "Subtype": "Deciduos"
+        "Name": "Tropical Dry Forest",
+        "ID": 11,
+        "Climate": "Tropical",
+        "Type": "Forest",
+        "Subtype": "Deciduos"
     }
     , {
-        "Name": "Eucalypt Dry Forest"
-        , "ID": 12
-        , "Climate": "Tropical"
-        , "Type": "Forest"
-        , "Subtype": "Deciduos"
+        "Name": "Eucalypt Dry Forest",
+        "ID": 12,
+        "Climate": "Tropical",
+        "Type": "Forest",
+        "Subtype": "Deciduos"
     }
     , {
-        "Name": "Maritime Forest"
-        , "ID": 13
-        , "Climate": "Temperate"
-        , "Type": "Forest"
-        , "Subtype": "Mixed"
+        "Name": "Maritime Forest",
+        "ID": 13,
+        "Climate": "Temperate",
+        "Type": "Forest",
+        "Subtype": "Mixed"
     }
     , {
-        "Name": "Temperate Scrubland"
-        , "ID": 14
-        , "Climate": "Temperate"
-        , "Type": "Scrubland"
-        , "Subtype": "x"
+        "Name": "Temperate Scrubland",
+        "ID": 14,
+        "Climate": "Temperate",
+        "Type": "Scrubland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Tropical Scrubland"
-        , "ID": 15
-        , "Climate": "Tropical"
-        , "Type": "Scrubland"
-        , "Subtype": "x"
+        "Name": "Tropical Scrubland",
+        "ID": 15,
+        "Climate": "Tropical",
+        "Type": "Scrubland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Mediterranean Scrubland"
-        , "ID": 16
-        , "Climate": "Temperate"
-        , "Type": "Scrubland"
-        , "Subtype": "x"
+        "Name": "Mediterranean Scrubland",
+        "ID": 16,
+        "Climate": "Temperate",
+        "Type": "Scrubland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Semi-arid Scrubland"
-        , "ID": 17
-        , "Climate": "Dry"
-        , "Type": "Scrubland"
-        , "Subtype": "x"
+        "Name": "Semi-arid Scrubland",
+        "ID": 17,
+        "Climate": "Dry",
+        "Type": "Scrubland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Lichen Scrubland"
-        , "ID": 18
-        , "Climate": "Temperate"
-        , "Type": "Scrubland"
-        , "Subtype": "x"
+        "Name": "Lichen Scrubland",
+        "ID": 18,
+        "Climate": "Temperate",
+        "Type": "Scrubland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Equatorrial Savannah"
-        , "ID": 19
-        , "Climate": "Tropical"
-        , "Type": "Grassland"
-        , "Subtype": "x"
+        "Name": "Equatorrial Savannah",
+        "ID": 19,
+        "Climate": "Tropical",
+        "Type": "Grassland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Terrai-Duar Savannah"
-        , "ID": 20
-        , "Climate": "Tropical"
-        , "Type": "Grassland"
-        , "Subtype": "x"
+        "Name": "Terrai-Duar Savannah",
+        "ID": 20,
+        "Climate": "Tropical",
+        "Type": "Grassland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Cerrado"
-        , "ID": 21
-        , "Climate": "Tropical"
-        , "Type": "Grassland"
-        , "Subtype": "x"
+        "Name": "Cerrado",
+        "ID": 21,
+        "Climate": "Tropical",
+        "Type": "Grassland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Temperate Grassland"
-        , "ID": 22
-        , "Climate": "Temperate"
-        , "Type": "Grassland"
-        , "Subtype": "x"
+        "Name": "Temperate Grassland",
+        "ID": 22,
+        "Climate": "Temperate",
+        "Type": "Grassland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Prairie"
-        , "ID": 23
-        , "Climate": "Temperate"
-        , "Type": "Grassland"
-        , "Subtype": "x"
+        "Name": "Prairie",
+        "ID": 23,
+        "Climate": "Temperate",
+        "Type": "Grassland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Steppe"
-        , "ID": 24
-        , "Climate": "Temperate"
-        , "Type": "Grassland"
-        , "Subtype": "x"
+        "Name": "Steppe",
+        "ID": 24,
+        "Climate": "Temperate",
+        "Type": "Grassland",
+        "Subtype": "x"
     }
     , {
-        "Name": "Arctic Tundra"
-        , "ID": 25
-        , "Climate": "Cold"
-        , "Type": "Tundra"
-        , "Subtype": "Ice"
+        "Name": "Arctic Tundra",
+        "ID": 25,
+        "Climate": "Cold",
+        "Type": "Tundra",
+        "Subtype": "Ice"
     }
     , {
-        "Name": "Semi-Arid Desert"
-        , "ID": 26
-        , "Climate": "Dry"
-        , "Type": "Desert"
-        , "Subtype": "x"
+        "Name": "Semi-Arid Desert",
+        "ID": 26,
+        "Climate": "Dry",
+        "Type": "Desert",
+        "Subtype": "x"
     }
     , {
-        "Name": "Arid-Desert"
-        , "ID": 27
-        , "Climate": "Dry"
-        , "Type": "Desert"
-        , "Subtype": "x"
+        "Name": "Arid-Desert",
+        "ID": 27,
+        "Climate": "Dry",
+        "Type": "Desert",
+        "Subtype": "x"
     }
     , {
-        "Name": "Coastal Desert"
-        , "ID": 28
-        , "Climate": "Dry"
-        , "Type": "Desert"
-        , "Subtype": "x"
+        "Name": "Coastal Desert",
+        "ID": 28,
+        "Climate": "Dry",
+        "Type": "Desert",
+        "Subtype": "x"
     }
     , {
-        "Name": "Red Desert"
-        , "ID": 29
-        , "Climate": "Dry"
-        , "Type": "Desert"
-        , "Subtype": "x"
+        "Name": "Red Desert",
+        "ID": 29,
+        "Climate": "Dry",
+        "Type": "Desert",
+        "Subtype": "x"
     }
     , {
-        "Name": "Cold Desert"
-        , "ID": 30
-        , "Climate": "Cold"
-        , "Type": "Desert"
-        , "Subtype": "x"
+        "Name": "Cold Desert",
+        "ID": 30,
+        "Climate": "Cold",
+        "Type": "Desert",
+        "Subtype": "x"
     }
     , {
-        "Name": "Ice Desert"
-        , "ID": 31
-        , "Climate": "Cold"
-        , "Type": "Desert"
-        , "Subtype": "Ice"
+        "Name": "Ice Desert",
+        "ID": 31,
+        "Climate": "Cold",
+        "Type": "Desert",
+        "Subtype": "Ice"
     }
     , {
-        "Name": "Freshwater Marsh"
-        , "ID": 32
-        , "Climate": "Mixed"
-        , "Type": "Marsh"
-        , "Subtype": "Freshwater"
+        "Name": "Freshwater Marsh",
+        "ID": 32,
+        "Climate": "Mixed",
+        "Type": "Marsh",
+        "Subtype": "Freshwater"
     }
     , {
-        "Name": "Saltwater Marsh"
-        , "ID": 33
-        , "Climate": "Mixed"
-        , "Type": "Marsh"
-        , "Subtype": "Saltwater"
+        "Name": "Saltwater Marsh",
+        "ID": 33,
+        "Climate": "Mixed",
+        "Type": "Marsh",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Tropical Floodplain"
-        , "ID": 34
-        , "Climate": "Tropical"
-        , "Type": "Floodplain"
-        , "Subtype": "Freshwater"
+        "Name": "Tropical Floodplain",
+        "ID": 34,
+        "Climate": "Tropical",
+        "Type": "Floodplain",
+        "Subtype": "Freshwater"
     }
     , {
-        "Name": "Temperate Floodplain"
-        , "ID": 35
-        , "Climate": "Temperate"
-        , "Type": "Floodplain"
-        , "Subtype": "Freshwater"
+        "Name": "Temperate Floodplain",
+        "ID": 35,
+        "Climate": "Temperate",
+        "Type": "Floodplain",
+        "Subtype": "Freshwater"
     }
     , {
-        "Name": "Mudflat"
-        , "ID": 36
-        , "Climate": "Mixed"
-        , "Type": "Floodplain"
-        , "Subtype": "Freshwater"
+        "Name": "Mudflat",
+        "ID": 36,
+        "Climate": "Mixed",
+        "Type": "Floodplain",
+        "Subtype": "Freshwater"
     }
     , {
-        "Name": "Palustrine Swamp"
-        , "ID": 37
-        , "Climate": "Mixed"
-        , "Type": "Swamp"
-        , "Subtype": "Freshwater"
+        "Name": "Palustrine Swamp",
+        "ID": 37,
+        "Climate": "Mixed",
+        "Type": "Swamp",
+        "Subtype": "Freshwater"
     }
     , {
-        "Name": "Coastal Swamp"
-        , "ID": 38
-        , "Climate": "Tropical"
-        , "Type": "Swamp"
-        , "Subtype": "Saltwater"
+        "Name": "Coastal Swamp",
+        "ID": 38,
+        "Climate": "Tropical",
+        "Type": "Swamp",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Temperate Coastal Plain"
-        , "ID": 39
-        , "Climate": "Temperate"
-        , "Type": "Coastal"
-        , "Subtype": "Saltwater"
+        "Name": "Temperate Coastal Plain",
+        "ID": 39,
+        "Climate": "Temperate",
+        "Type": "Coastal",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Tropical Coastal Plain"
-        , "ID": 40
-        , "Climate": "Tropical"
-        , "Type": "Coastal"
-        , "Subtype": "Saltwater"
+        "Name": "Tropical Coastal Plain",
+        "ID": 40,
+        "Climate": "Tropical",
+        "Type": "Coastal",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Arctic Coastal Plain"
-        , "ID": 41
-        , "Climate": "Cold"
-        , "Type": "Coastal"
-        , "Subtype": "Saltwater"
+        "Name": "Arctic Coastal Plain",
+        "ID": 41,
+        "Climate": "Cold",
+        "Type": "Coastal",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Temperate Coast"
-        , "ID": 42
-        , "Climate": "Temperate"
-        , "Type": "Coastal"
-        , "Subtype": "Saltwater"
+        "Name": "Temperate Coast",
+        "ID": 42,
+        "Climate": "Temperate",
+        "Type": "Coastal",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Tropical Coast"
-        , "ID": 43
-        , "Climate": "Tropical"
-        , "Type": "Coastal"
-        , "Subtype": "Saltwater"
+        "Name": "Tropical Coast",
+        "ID": 43,
+        "Climate": "Tropical",
+        "Type": "Coastal",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Rocky Coast"
-        , "ID": 44
-        , "Climate": "Mixed"
-        , "Type": "Coastal"
-        , "Subtype": "Saltwater"
+        "Name": "Rocky Coast",
+        "ID": 44,
+        "Climate": "Mixed",
+        "Type": "Coastal",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Tropical Ocean"
-        , "ID": 45
-        , "Climate": "Tropical"
-        , "Type": "Marine"
-        , "Subtype": "Saltwater"
+        "Name": "Tropical Ocean",
+        "ID": 45,
+        "Climate": "Tropical",
+        "Type": "Marine",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Temperate Ocean"
-        , "ID": 46
-        , "Climate": "Temperate"
-        , "Type": "Marine"
-        , "Subtype": "Saltwater"
+        "Name": "Temperate Ocean",
+        "ID": 46,
+        "Climate": "Temperate",
+        "Type": "Marine",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Benthic"
-        , "ID": 47
-        , "Climate": "Mixed"
-        , "Type": "Marine"
-        , "Subtype": "Saltwater"
+        "Name": "Benthic",
+        "ID": 47,
+        "Climate": "Mixed",
+        "Type": "Marine",
+        "Subtype": "Saltwater"
     }
     , {
-        "Name": "Tropical Volcanic Forest"
-        , "ID": 48
-        , "Climate": "Tropical"
-        , "Type": "Forest"
-        , "Subtype": "Coniferous"
+        "Name": "Tropical Volcanic Forest",
+        "ID": 48,
+        "Climate": "Tropical",
+        "Type": "Forest",
+        "Subtype": "Coniferous"
     }
     , {
-        "Name": "Fern Plain"
-        , "ID": 49
-        , "Climate": "Mixed"
-        , "Subtype": "Fern"
+        "Name": "Fern Plain",
+        "ID": 49,
+        "Climate": "Mixed",
+        "Subtype": "Fern"
     }
     , {
-        "Name": "Polar Winter Forest"
-        , "ID": 50
-        , "Climate": "Cold"
-        , "Type": "Forest"
-        , "Subtype": "Coniferous"
+        "Name": "Polar Winter Forest",
+        "ID": 50,
+        "Climate": "Cold",
+        "Type": "Forest",
+        "Subtype": "Coniferous"
     }
 
 ]

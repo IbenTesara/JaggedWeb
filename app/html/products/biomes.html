@@ -1,4 +1,4 @@
-<div>
+<div class="biome-page">
     <div id="searchBox">
         <div>
             <p>Climate</p>
@@ -14,7 +14,7 @@
             <input type="text" ng-model="searchBox.Location"> </div>
     </div>
     <br>
-    <div id="biomelist" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+    <div id="biome-list" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <ul>
             <li ng-repeat="biome in biomes | filter:searchBox">
                 <div class="{{biome.Climate}}">{{biome.Climate}}</div>
@@ -26,9 +26,43 @@
             </li>
         </ul>
     </div>
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6"> y</div>
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-        {{currentBiome}}
-
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6" id="biome-info">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <ul class="nav nav-tabs">
+                    <li>
+                        <a href="" ng-click="setCurrentDiv('info')"><span class="glyphicon glyphicon-info-sign"></span> Info</a>
+                    </li>
+                    <li>
+                        <a href="" ng-click="setCurrentDiv('photo')"><span class="glyphicon glyphicon-camera"></span> Photos</a>
+                    </li>
+                    <li>
+                        <a href="" ng-click="setCurrentDiv('locations')"><span class="glyphicon glyphicon-globe"></span> Locations</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="panel-body">
+                <div ng-if="currentDiv==='info'">
+                    <h3>
+                    {{currentBiome.Name}}</h3>
+                    <div class="{{currentBiome.Climate}}" id="climate">{{currentBiome.Climate}}</div>
+                    <div id="type">{{currentBiome.Type}}</div>
+                    <hr>
+                    <div ng-bind-html="currentBiome.Info"></div>
+                </div>
+                <div ng-if="currentDiv==='photo'">y</div>
+                <div ng-if="currentDiv==='locations'">z</div>
+            </div>
+        </div>
     </div>
-</div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="biome-funfacts">
+        <div class="panel panel-default">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Facts</h3>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,15 +1,14 @@
 $border-bottom-p: 0.2em solid #1d8485;
-#biomelist {
+#biome-list {
     overflow: scroll;
     height: auto;
     text-align: left;
     max-height: 50em;
     padding: 1em;
-    padding-left:0;
+    padding-left: 0;
     border-left: $border-bottom-p;
     border-right: $border-bottom-p;
     div {
-
         border-radius: 50%;
         color: transparent;
         overflow: hidden;
@@ -17,20 +16,57 @@ $border-bottom-p: 0.2em solid #1d8485;
         height: 1em;
         display: inline-block;
     }
-    
-    li{
+    li {
         list-style: none;
         padding: 0.3em;
         margin-bottom: 0.3em;
     }
-    
-    span{
+    span {
         margin-right: 0.5em;
     }
 }
 
+#biome-funfacts {
+    text-align: left;
+    p {
+        text-align: left;
+    }
+}
+
+#biome-info {
+    #climate {
+        color: ghostwhite;
+        text-align: center;
+        border-radius: 10%;
+        padding: 0.1em;
+        min-width: 7em;
+        max-width: 8em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    #type {
+        color: ghostwhite;
+        background-color: mediumaquamarine;
+        text-align: center;
+        border-radius: 10%;
+        padding: 0.1em;
+        min-width: 7em;
+        max-width: 8em;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1em;
+    }
+}
+
+.biome-page {
+    .panel-body {
+        min-height: 45em;
+        text-align: left;
+    }
+}
+
 .Cold {
-    background-color: aliceblue;
+    background-color: skyblue;
 }
 
 .Temperate {
