@@ -46,8 +46,14 @@
                     <h3>
                     {{currentBiome.Name}}</h3>
                     <div class="{{currentBiome.Climate}}" id="climate">{{currentBiome.Climate}}</div>
-                    <div id="type">{{currentBiome.Type}}</div>
+                    <div id="type">
+                        <span ng-if="currentBiome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
+                        <span ng-if="currentBiome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
+                        <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span> {{currentBiome.Type}}
+                    </div>
                     <div id="elevation">{{currentBiome.Elevation}}</div>
+                    <div id="precipitation"><span class="glyphicon glyphicon-tint"></span>{{currentBiome.Precipitation}}</div>
+                    <div id="temperature"><span class="glyphicon glyphicon-dashboard"></span>{{currentBiome.Temperature}}</div>
                     <hr>
                     <div ng-bind-html="currentBiome.Info"></div>
                 </div>

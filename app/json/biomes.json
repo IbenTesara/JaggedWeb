@@ -7,7 +7,8 @@
         "Subtype": "Alpine",
         "Location": [],
         "Info": "<p>The highest zone that vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization.</p> <p>Vegetation is patchy and is restricted to only the most favorable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p> <p>Snow is found in this region for part of the year.</p>",
-        "Elevation": "> 2500m"
+        "Elevation": "> 2500m",
+        "Precipitation": ""
     }
     , {
         "Name": "Temperate Alpine Tundra",
@@ -15,7 +16,8 @@
         "Climate": "Cold",
         "Type": "Tundra",
         "Subtype": "Alpine",
-        "Elevation": "> 1900m"
+        "Elevation": "> 1900m",
+        "Precipitation": ""
     }
     , {
         "Name": "Tropical Alpine Tundra",
@@ -23,7 +25,8 @@
         "Climate": "Cold",
         "Type": "Tundra",
         "Subtype": "Alpine",
-        "Elevation": "> 1900m"
+        "Elevation": "> 1900m",
+        "Precipitation": ""
     }
     , {
         "Name": "Temperate Montane Forest",
@@ -31,7 +34,8 @@
         "Climate": "Cold",
         "Type": "Forest",
         "Subtype": "Mixed",
-        "Elevation": "> 1200m"
+        "Elevation": "> 1200m",
+        "Precipitation": ""
     }
     , {
         "Name": "Tropical Montane Forest",
@@ -39,7 +43,8 @@
         "Climate": "Tropical",
         "Type": "Forest",
         "Subtype": "Mixed",
-        "Elevation": "< 3300m"
+        "Elevation": "< 3300m",
+        "Precipitation": ""
     }
     , {
         "Name": "Temperate Coniferous Forest",
@@ -49,7 +54,8 @@
         "Subtype": "Coniferous",
         "Locations": [],
         "Info": "<p>Temperate coniferous forest is a terrestrial biome found in temperate regions of the world with warm summers and cool winters and adequate rainfall to sustain a forest.</p><p>In most temperate coniferous forests, evergreen conifers predominate, while some are a mix of conifers and broadleaf evergreen trees and/or broadleaf deciduous trees.</p><p>Temperate coniferous forests are common in the coastal areas of regions that have mild winters and heavy rainfall, or inland in drier climates or mountain areas.</p>",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": ""
     }
     , {
         "Name": "Tropical Coniferous Forest",
@@ -59,7 +65,8 @@
         "Subtype": "Coniferous",
         "Locations": [],
         "Info": "<p>Tropical and subtropical coniferous forests are a forest biome.</p><p>They are located in regions of humid climate at tropical and subtropical latitudes. Most tropical and subtropical coniferous forest ecoregions are found in the Nearctic and Neotropic ecozones.</p><p>Outside the Americas and the Greater Ranges of Asia they are rare and predominate on islands.</p>",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": ""
     }
     , {
         "Name": "Temperate Decidous Forest",
@@ -69,7 +76,8 @@
         "Subtype": "Deciduos",
         "Locations": [],
         "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": ""
     }
     , {
         "Name": "Tropical Evergreen Rainforest",
@@ -79,7 +87,9 @@
         "Subtype": "Deciduos",
         "Locations": [],
         "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>",
-        "Elevation": "< 1000m"
+        "Elevation": "< 1000m",
+        "Precipitation": "168 cm",
+        "Temperature": "27°C"
     }
     , {
         "Name": "Temperate Evergreen Rainforest",
@@ -87,7 +97,8 @@
         "Climate": "Temperate",
         "Type": "Forest",
         "Subtype": "Mixed",
-        "Elevation": "< 2000m"
+        "Elevation": "< 2000m",
+        "Precipitation": "140 cm"
     }
     , {
         "Name": "Tropical Dry Forest",

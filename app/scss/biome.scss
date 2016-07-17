@@ -68,6 +68,34 @@ $border-bottom-p: 0.2em solid #1d8485;
         display: inline-block;
         margin-left: 1em;
     }
+    #precipitation {
+        color: ghostwhite;
+        background-color: dodgerblue;
+        text-align: center;
+        border-radius: 10%;
+        padding: 0.1em;
+        min-width: 7em;
+        max-width: 8em;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    #temperature {
+        color: ghostwhite;
+        background-color: darkorange;
+        text-align: center;
+        border-radius: 10%;
+        padding: 0.1em;
+        min-width: 7em;
+        max-width: 8em;
+        font-weight: bold;
+        display: inline-block;
+        margin-left: 1em;
+    }
+    span {
+        margin-right: .4em;
+        margin-left: 0em !important;
+    }
 }
 
 .biome-page {
