@@ -43,6 +43,8 @@ $border-bottom-p: 0.2em solid #1d8485;
         max-width: 8em;
         font-weight: bold;
         display: inline-block;
+        margin-right: 1em;
+        margin-top: 0.5em;
     }
     #type {
         color: ghostwhite;
@@ -54,7 +56,8 @@ $border-bottom-p: 0.2em solid #1d8485;
         max-width: 8em;
         font-weight: bold;
         display: inline-block;
-        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.5em;
     }
     #elevation {
         color: ghostwhite;
@@ -66,7 +69,8 @@ $border-bottom-p: 0.2em solid #1d8485;
         max-width: 8em;
         font-weight: bold;
         display: inline-block;
-        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.5em;
     }
     #precipitation {
         color: ghostwhite;
@@ -78,7 +82,8 @@ $border-bottom-p: 0.2em solid #1d8485;
         max-width: 8em;
         font-weight: bold;
         display: inline-block;
-        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 0.5em;
     }
     #temperature {
         color: ghostwhite;
@@ -90,7 +95,8 @@ $border-bottom-p: 0.2em solid #1d8485;
         max-width: 8em;
         font-weight: bold;
         display: inline-block;
-        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 1em;
     }
     span {
         margin-right: .4em;
@@ -125,6 +131,6 @@ $border-bottom-p: 0.2em solid #1d8485;
     background-color: cadetblue;
 }
 
-.biome-preview{
+.biome-preview {
     width: 100%
 }

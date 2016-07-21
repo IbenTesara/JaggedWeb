@@ -6,7 +6,7 @@
         "Type": "Tundra",
         "Subtype": "Alpine",
         "Location": ["Andes", "Southern Great Escarpment", "Rocky Mountains", "Transantarctic Mountains", "Great Dividing Range", "Himalayas", "Alps"],
-        "Info": "<p>The highest zone that vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization.</p> <p>Vegetation is patchy and is restricted to only the most favorable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p> <p>Snow is found in this region for part of the year.</p>",
+        "Info": "<p><b>Subnival tundra</b> is the highest zone where vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization. The majority of the soil consists of stone and rock</p> <p>Vegetation is patchy and is restricted to only the most favourable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p><p>Higher areas are often covered with snow throughout the year, although parts of this tundra can also be snowed in depending on the annual temperatures.</p>",
         "Elevation": "> 2500m",
         "Precipitation": "30cm",
         "Temperature": "1°C",
@@ -20,7 +20,8 @@
         "Subtype": "Alpine",
         "Elevation": "> 1900m",
         "Precipitation": "30cm",
-        "Temperature": "3°C"
+        "Temperature": "3°C",
+        "Image": "banner_tempalpine"
     }
     , {
         "Name": "Tropical Alpine Tundra",
@@ -30,7 +31,8 @@
         "Subtype": "Alpine",
         "Elevation": "> 1900m",
         "Precipitation": "30cm",
-        "Temperature": "3°C"
+        "Temperature": "3°C",
+        "Image": "banner_tropalpine"
     }
     , {
         "Name": "Temperate Montane Forest",
@@ -40,7 +42,8 @@
         "Subtype": "Mixed",
         "Elevation": "> 1200m",
         "Precipitation": "107cm",
-        "Temperature": "14°C"
+        "Temperature": "14°C",
+        "Image": "banner_tempmontane"
     }
     , {
         "Name": "Tropical Montane Forest",
@@ -50,7 +53,8 @@
         "Subtype": "Mixed",
         "Elevation": "< 3300m",
         "Precipitation": "150cm",
-        "Temperature": "14°C"
+        "Temperature": "14°C",
+        "Image": "banner_tropmontane"
     }
     , {
         "Name": "Temperate Coniferous Forest",
@@ -59,10 +63,11 @@
         "Type": "Forest",
         "Subtype": "Coniferous",
         "Locations": [],
-        "Info": "<p>Temperate coniferous forest is a terrestrial biome found in temperate regions of the world with warm summers and cool winters and adequate rainfall to sustain a forest.</p><p>In most temperate coniferous forests, evergreen conifers predominate, while some are a mix of conifers and broadleaf evergreen trees and/or broadleaf deciduous trees.</p><p>Temperate coniferous forests are common in the coastal areas of regions that have mild winters and heavy rainfall, or inland in drier climates or mountain areas.</p>",
+        "Info": "<p><b>Temperate coniferous forest</b> is a coniferous forest often dominated by evergreen conifers. Conifer forests can be found in coastal areas with mild winters and heavy rainfall, or drier or mountanious climates.</p>Consisting of only two layers of foliage, the understory of these forests are dominated by herbs, grasses and ferns.<p></p><p></p>",
         "Elevation": "NA",
         "Precipitation": "90cm",
-        "Temperature": "10°C"
+        "Temperature": "10°C",
+        "Image": "banner_tempconifer"
     }
     , {
         "Name": "Tropical Coniferous Forest",
@@ -98,7 +103,8 @@
         "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>",
         "Elevation": "< 1000m",
         "Precipitation": "168 cm",
-        "Temperature": "27°C"
+        "Temperature": "27°C",
+        "Image": "banner_rainforest"
     }
     , {
         "Name": "Temperate Evergreen Rainforest",
@@ -195,7 +201,8 @@
         "Subtype": "Grass",
         "Elevation": "NA",
         "Precipitation": "10cm",
-        "Temperature": "25°C"
+        "Temperature": "25°C",
+        "Image": "banner_savanna"
     }
     , {
         "Name": "Terrai-Duar Savannah",
@@ -215,7 +222,8 @@
         "Subtype": "Grass",
         "Elevation": "NA",
         "Precipitation": "14cm",
-        "Temperature": "24.5°C"
+        "Temperature": "24.5°C",
+        "Image": "banner_cerrado"
     }
     , {
         "Name": "Temperate Grassland",
@@ -255,7 +263,8 @@
         "Subtype": "Ice",
         "Elevation": "NA",
         "Precipitation": "20cm",
-        "Temperature": "-13°C"
+        "Temperature": "-13°C",
+        "Image": "banner_tundra"
     }
     , {
         "Name": "Semi-Arid Desert",
@@ -305,7 +314,8 @@
         "Subtype": "x",
         "Elevation": "NA",
         "Precipitation": "22.5cm",
-        "Temperature": "23°C"
+        "Temperature": "23°C",
+        "Image": "banner_colddesert"
     }
     , {
         "Name": "Polar Desert",
@@ -315,7 +325,8 @@
         "Subtype": "Ice",
         "Elevation": "NA",
         "Precipitation": "2.5cm",
-        "Temperature": "-28°C"
+        "Temperature": "-28°C",
+        "Image": "banner_polardesert"
     }
     , {
         "Name": "Freshwater Marsh",
@@ -364,7 +375,8 @@
         "Type": "Floodplain",
         "Subtype": "Freshwater",
         "Elevation": "NA",
-        "Info": "<p><b>Mudflat</b> or tidal flats are a form of coastal wetlands caused by mud deposited by tides or rivers. They are often found in sheltered areas such as lagoons and bays.</p><p>Important ecosystems, mudflats usually support a large population of wildlife and are key to the survival of several species of migratory shorebirds, as well as certain species of crabs, molluks and fish.</p>"
+        "Info": "<p><b>Mudflat</b> or tidal flats are a form of coastal wetlands caused by mud deposited by tides or rivers. They are often found in sheltered areas such as lagoons and bays.</p><p>An important ecosystem, mudflats usually support a large population of wildlife and are key to the survival of several species of migratory shorebirds, as well as certain species of crabs, molluks and fish.</p>",
+        "Image": "banner_mudflat"
     }
     , {
         "Name": "Palustrine Swamp",
@@ -480,7 +492,7 @@
         "Elevation": "NA"
     }
     , {
-        "Name": "Polar Winter Forest",
+        "Name": "Polar Forest",
         "ID": 50,
         "Climate": "Cold",
         "Type": "Forest",
