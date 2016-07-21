@@ -153,7 +153,6 @@ body {
         min-height: 3em;
         text-align: right;
         @include gradient;
-        
         a {
             background-color: cadetblue;
             border: $border-b;

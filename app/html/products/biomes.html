@@ -43,15 +43,14 @@
                     <h3>
                     {{currentBiome.Name}}</h3>
                     <div class="{{currentBiome.Climate}}" id="climate">
-                        <span ng-if="currentBiome.Climate==='Cold'" class="ion-ios-snowy"></span>
-                        {{currentBiome.Climate}}</div>
+                        <span ng-if="currentBiome.Climate==='Cold'" class="ion-ios-snowy"></span> {{currentBiome.Climate}}
+                    </div>
                     <div id="type">
                         <span ng-if="currentBiome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
                         <span ng-if="currentBiome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
-                        <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span> 
+                        <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span>
                         <span ng-if="currentBiome.Subtype=='Grass'" class="glyphicon glyphicon-grain"></span>
-                        <span ng-if="currentBiome.Subtype=='Ice'" class="ion-ios-snowy"></span>
-                        {{currentBiome.Type}}
+                        <span ng-if="currentBiome.Subtype=='Ice'" class="ion-ios-snowy"></span> {{currentBiome.Type}}
                     </div>
                     <div id="elevation">{{currentBiome.Elevation}}</div>
                     <div id="precipitation"><span class="glyphicon glyphicon-tint"></span>{{currentBiome.Precipitation}}</div>
@@ -60,7 +59,11 @@
                     <div ng-bind-html="currentBiome.Info"></div>
                 </div>
                 <div ng-if="currentDiv==='photo'">y</div>
-                <div ng-if="currentDiv==='locations'">z</div>
+                <div ng-if="currentDiv==='locations'">
+                    <ul>
+                        <li ng-repeat="location in currentBiome.Location">{{location}}</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

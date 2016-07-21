@@ -17,9 +17,13 @@
   ],
   "dependencies": {
     "bootstrap-sass": "^3.3.6",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "ionicons": "~2.0.1",
+    "angular-modal-service": "^0.10.1",
+    "angular": "^1.5.7"
   },
   "devDependencies": {
-    "ionicons": "~2.0.1"
+    "ionicons": "~2.0.1",
+    "angular-modal-service": "^0.10.1"
   }
 }

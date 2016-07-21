@@ -1,0 +1,17 @@
+[
+    {
+        Name: "Forest",
+        Type: "Decidous",
+        Vegetation: "",
+        Undergrowth: "Dead leaves, small shrubs and fungae",
+        Info: ""
+    },
+    {
+        Name: "Tundra",
+        Type: "Polar",
+        Vegetation: "",
+        Undergrowth: "Grasses, sedges, mosses and lichens",
+        Info: "<b>Tundra<b> is a type of biome where the tree growth is hindered by low temperatures and short growing seasons. ",
+        More: ["<b>Arctic tundra<b/> occurs in the far Northern Hemisphere, north of the taiga belt. The word \"tundra\" usually refers only to the areas where the subsoil is permafrost, or permanently frozen soil. (It may also refer to the treeless plain in general, so that northern Sápmi would be included.) Permafrost tundra includes vast areas of northern Russia and Canada.", "Antarctic tundra occurs on Antarctica and on several Antarctic and subantarctic islands, including South Georgia and the South Sandwich Islands and the Kerguelen Islands. Most of Antarctica is too cold and dry to support vegetation, and most of the continent is covered by ice fields. However, some portions of the continent, particularly the Antarctic Peninsula, have areas of rocky soil that support plant life."]
+    }
+]

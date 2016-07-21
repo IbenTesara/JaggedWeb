@@ -5,7 +5,7 @@
         "Climate": "Cold",
         "Type": "Tundra",
         "Subtype": "Alpine",
-        "Location": [],
+        "Location": ["Andes", "Southern Great Escarpment", "Rocky Mountains", "Transantarctic Mountains", "Great Dividing Range", "Himalayas", "Alps"],
         "Info": "<p>The highest zone that vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization.</p> <p>Vegetation is patchy and is restricted to only the most favorable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p> <p>Snow is found in this region for part of the year.</p>",
         "Elevation": "> 2500m",
         "Precipitation": "30cm",
@@ -39,7 +39,8 @@
         "Type": "Forest",
         "Subtype": "Mixed",
         "Elevation": "> 1200m",
-        "Precipitation": ""
+        "Precipitation": "107cm",
+        "Temperature": "14°C"
     }
     , {
         "Name": "Tropical Montane Forest",
@@ -114,7 +115,9 @@
         "Climate": "Tropical",
         "Type": "Forest",
         "Subtype": "Deciduos",
-        "Elevation": "< 1000m"
+        "Elevation": "< 1000m",
+        "Precipitation": "177cm",
+        "Temperature": "23°C"
     }
     , {
         "Name": "Eucalypt Dry Forest",
@@ -122,14 +125,19 @@
         "Climate": "Tropical",
         "Type": "Forest",
         "Subtype": "Deciduos",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "100cm",
+        "Temperature": "17.5°C"
     }
     , {
         "Name": "Maritime Forest",
         "ID": 13,
         "Climate": "Temperate",
         "Type": "Forest",
-        "Subtype": "Mixed"
+        "Subtype": "Mixed",
+        "Elevation": "NA",
+        "Precipitation": "131cm",
+        "Temperature": "12°C"
     }
     , {
         "Name": "Temperate Scrubland",
@@ -137,7 +145,9 @@
         "Climate": "Temperate",
         "Type": "Scrubland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "22cm",
+        "Temperature": "16°C"
     }
     , {
         "Name": "Tropical Scrubland",
@@ -153,7 +163,9 @@
         "Climate": "Temperate",
         "Type": "Scrubland",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "34cm",
+        "Temperature": "18°C"
     }
     , {
         "Name": "Semi-arid Scrubland",
@@ -161,7 +173,9 @@
         "Climate": "Dry",
         "Type": "Scrubland",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "6cm",
+        "Temperature": "15°C"
     }
     , {
         "Name": "Lichen Scrubland",
@@ -169,7 +183,9 @@
         "Climate": "Temperate",
         "Type": "Scrubland",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "47,5cm",
+        "Temperature": "5°C"
     }
     , {
         "Name": "Equatorrial Savannah",
@@ -177,7 +193,9 @@
         "Climate": "Tropical",
         "Type": "Grassland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "10cm",
+        "Temperature": "25°C"
     }
     , {
         "Name": "Terrai-Duar Savannah",
@@ -185,7 +203,9 @@
         "Climate": "Tropical",
         "Type": "Grassland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "18cm",
+        "Temperature": "25°C"
     }
     , {
         "Name": "Cerrado",
@@ -193,7 +213,9 @@
         "Climate": "Tropical",
         "Type": "Grassland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "14cm",
+        "Temperature": "24.5°C"
     }
     , {
         "Name": "Temperate Grassland",
@@ -201,7 +223,9 @@
         "Climate": "Temperate",
         "Type": "Grassland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "17.5cm",
+        "Temperature": "15°C"
     }
     , {
         "Name": "Prairie",
@@ -209,7 +233,9 @@
         "Climate": "Temperate",
         "Type": "Grassland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "7cm",
+        "Temperature": "16°C"
     }
     , {
         "Name": "Steppe",
@@ -217,7 +243,9 @@
         "Climate": "Temperate",
         "Type": "Grassland",
         "Subtype": "Grass",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "26cm",
+        "Temperature": "21°C"
     }
     , {
         "Name": "Arctic Tundra",
@@ -225,7 +253,9 @@
         "Climate": "Cold",
         "Type": "Tundra",
         "Subtype": "Ice",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "20cm",
+        "Temperature": "-13°C"
     }
     , {
         "Name": "Semi-Arid Desert",
@@ -233,7 +263,9 @@
         "Climate": "Dry",
         "Type": "Desert",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "3cm",
+        "Temperature": "24°C"
     }
     , {
         "Name": "Arid-Desert",
@@ -241,7 +273,9 @@
         "Climate": "Dry",
         "Type": "Desert",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "1.5cm",
+        "Temperature": "29°C"
     }
     , {
         "Name": "Coastal Desert",
@@ -249,7 +283,9 @@
         "Climate": "Dry",
         "Type": "Desert",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "10.5cm",
+        "Temperature": "24.5°C"
     }
     , {
         "Name": "Red Desert",
@@ -257,7 +293,9 @@
         "Climate": "Dry",
         "Type": "Desert",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "2.7cm",
+        "Temperature": "26°C"
     }
     , {
         "Name": "Cold Desert",
@@ -265,15 +303,19 @@
         "Climate": "Cold",
         "Type": "Desert",
         "Subtype": "x",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "22.5cm",
+        "Temperature": "23°C"
     }
     , {
-        "Name": "Ice Desert",
+        "Name": "Polar Desert",
         "ID": 31,
         "Climate": "Cold",
         "Type": "Desert",
         "Subtype": "Ice",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "2.5cm",
+        "Temperature": "-28°C"
     }
     , {
         "Name": "Freshwater Marsh",
@@ -281,15 +323,19 @@
         "Climate": "Mixed",
         "Type": "Marsh",
         "Subtype": "Freshwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "187cm",
+        "Temperature": "24°C"
     }
     , {
         "Name": "Saltwater Marsh",
         "ID": 33,
-        "Climate": "Mixed",
+        "Climate": "Temperate",
         "Type": "Marsh",
         "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "187cm",
+        "Temperature": "14°C"
     }
     , {
         "Name": "Tropical Floodplain",
@@ -297,7 +343,9 @@
         "Climate": "Tropical",
         "Type": "Floodplain",
         "Subtype": "Freshwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "113cm",
+        "Temperature": "24°C"
     }
     , {
         "Name": "Temperate Floodplain",
@@ -305,7 +353,9 @@
         "Climate": "Temperate",
         "Type": "Floodplain",
         "Subtype": "Freshwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "15cm",
+        "Temperature": "8°C"
     }
     , {
         "Name": "Mudflat",
@@ -313,7 +363,8 @@
         "Climate": "Mixed",
         "Type": "Floodplain",
         "Subtype": "Freshwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Info": "<p><b>Mudflat</b> or tidal flats are a form of coastal wetlands caused by mud deposited by tides or rivers. They are often found in sheltered areas such as lagoons and bays.</p><p>Important ecosystems, mudflats usually support a large population of wildlife and are key to the survival of several species of migratory shorebirds, as well as certain species of crabs, molluks and fish.</p>"
     }
     , {
         "Name": "Palustrine Swamp",
@@ -321,7 +372,9 @@
         "Climate": "Mixed",
         "Type": "Swamp",
         "Subtype": "Freshwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "187cm",
+        "Temperature": "25°C"
     }
     , {
         "Name": "Coastal Swamp",
@@ -329,7 +382,9 @@
         "Climate": "Tropical",
         "Type": "Swamp",
         "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "187cm",
+        "Temperature": "25°C"
     }
     , {
         "Name": "Temperate Coastal Plain",
@@ -337,7 +392,9 @@
         "Climate": "Temperate",
         "Type": "Coastal",
         "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "78cm",
+        "Temperature": "9°C"
     }
     , {
         "Name": "Tropical Coastal Plain",
@@ -345,7 +402,9 @@
         "Climate": "Tropical",
         "Type": "Coastal",
         "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "78cm",
+        "Temperature": "16°C"
     }
     , {
         "Name": "Arctic Coastal Plain",
@@ -353,7 +412,9 @@
         "Climate": "Cold",
         "Type": "Coastal",
         "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Elevation": "NA",
+        "Precipitation": "2cm",
+        "Temperature": "4.5°C"
     }
     , {
         "Name": "Temperate Coast",
