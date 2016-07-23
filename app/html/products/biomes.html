@@ -56,7 +56,11 @@
                     <div id="precipitation"><span class="glyphicon glyphicon-tint"></span>{{currentBiome.Precipitation}}</div>
                     <div id="temperature"><span class="glyphicon glyphicon-dashboard"></span>{{currentBiome.Temperature}}</div>
                     <hr>
-                    <div ng-bind-html="currentBiome.Info"></div>
+                    <div ng-bind-html="currentBiome.Info">
+                    <ul ng-if="currentBiome.OtherNames != null">
+                        <li ng-repeat="name in currentBiome.OtherNames">{{name}}</li>
+                    </ul>
+                    </div>
                 </div>
                 <div ng-if="currentDiv==='photo'">y</div>
                 <div ng-if="currentDiv==='locations'">
@@ -78,3 +82,4 @@
             </div>
         </div>
     </div>
+</div>

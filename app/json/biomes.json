@@ -1,503 +1,550 @@
 [
     {
-        "Name": "Subnival Tundra",
-        "ID": 1,
-        "Climate": "Cold",
-        "Type": "Tundra",
-        "Subtype": "Alpine",
-        "Location": ["Andes", "Southern Great Escarpment", "Rocky Mountains", "Transantarctic Mountains", "Great Dividing Range", "Himalayas", "Alps"],
-        "Info": "<p><b>Subnival tundra</b> is the highest zone where vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization. The majority of the soil consists of stone and rock</p> <p>Vegetation is patchy and is restricted to only the most favourable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p><p>Higher areas are often covered with snow throughout the year, although parts of this tundra can also be snowed in depending on the annual temperatures.</p>",
-        "Elevation": "> 2500m",
-        "Precipitation": "30cm",
-        "Temperature": "1°C",
-        "Image": "banner_subnivaltundra"
+        "Name": "Subnival Tundra"
+        , "ID": 1
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Alpine"
+        , "Location": ["Andes", "Southern Great Escarpment", "Rocky Mountains", "Transantarctic Mountains", "Great Dividing Range", "Himalayas", "Alps"]
+        , "Info": "<p><b>Subnival tundra</b> is the highest zone where vegetation typically exists. This area is shaped by the frequent frosts that restrict extensive plant colonization. The majority of the soil consists of stone and rock</p> <p>Vegetation is patchy and is restricted to only the most favourable locations that are protected from the heavy winds that often characterize this area. Much of this region is patchy grassland, sedges and rush heaths typical of arctic zones .</p><p>Higher areas are often covered with snow throughout the year, although parts of this tundra can also be snowed in depending on the annual temperatures.</p>"
+        , "Elevation": "> 2500m"
+        , "Precipitation": "30cm"
+        , "Temperature": "1°C"
+        , "Image": "banner_subnivaltundra"
     }
     , {
-        "Name": "Temperate Alpine Tundra",
-        "ID": 2,
-        "Climate": "Cold",
-        "Type": "Tundra",
-        "Subtype": "Alpine",
-        "Elevation": "> 1900m",
-        "Precipitation": "30cm",
-        "Temperature": "3°C",
-        "Image": "banner_tempalpine"
+        "Name": "Temperate Alpine Tundra"
+        , "ID": 2
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Alpine"
+        , "Elevation": "> 1900m"
+        , "Precipitation": "30cm"
+        , "Temperature": "3°C"
+        , "Image": "banner_tempalpine"
     }
     , {
-        "Name": "Tropical Alpine Tundra",
-        "ID": 3,
-        "Climate": "Cold",
-        "Type": "Tundra",
-        "Subtype": "Alpine",
-        "Elevation": "> 1900m",
-        "Precipitation": "30cm",
-        "Temperature": "3°C",
-        "Image": "banner_tropalpine"
+        "Name": "Tropical Alpine Tundra"
+        , "ID": 3
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Alpine"
+        , "Elevation": "> 1900m"
+        , "Precipitation": "30cm"
+        , "Temperature": "3°C"
+        , "Image": "banner_tropalpine"
     }
     , {
-        "Name": "Temperate Montane Forest",
-        "ID": 4,
-        "Climate": "Cold",
-        "Type": "Forest",
-        "Subtype": "Mixed",
-        "Elevation": "> 1200m",
-        "Precipitation": "107cm",
-        "Temperature": "14°C",
-        "Image": "banner_tempmontane"
+        "Name": "Temperate Montane Forest"
+        , "ID": 4
+        , "Climate": "Cold"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+        , "Location": []
+        , "Info": "<p><b>Temperate montane forest</b> is a mixed forest found in montaneous regions. The vegetation typically consists of a mix between coniferous and decidous trees.</p>"
+        , "Elevation": "> 1200m"
+        , "Precipitation": "107cm"
+        , "Temperature": "14°C"
+        , "Image": "banner_tempmontane"
     }
     , {
-        "Name": "Tropical Montane Forest",
-        "ID": 5,
-        "Climate": "Tropical",
-        "Type": "Forest",
-        "Subtype": "Mixed",
-        "Elevation": "< 3300m",
-        "Precipitation": "150cm",
-        "Temperature": "14°C",
-        "Image": "banner_tropmontane"
+        "Name": "Tropical Montane Forest"
+        , "ID": 5
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+        , "Elevation": "< 3300m"
+        , "Precipitation": "150cm"
+        , "Temperature": "14°C"
+        , "Image": "banner_tropmontane"
+        , "OtherNames": ["Cloud forest"]
     }
     , {
-        "Name": "Temperate Coniferous Forest",
-        "ID": 6,
-        "Climate": "Temperate",
-        "Type": "Forest",
-        "Subtype": "Coniferous",
-        "Locations": [],
-        "Info": "<p><b>Temperate coniferous forest</b> is a coniferous forest often dominated by evergreen conifers. Conifer forests can be found in coastal areas with mild winters and heavy rainfall, or drier or mountanious climates.</p>Consisting of only two layers of foliage, the understory of these forests are dominated by herbs, grasses and ferns.<p></p><p></p>",
-        "Elevation": "NA",
-        "Precipitation": "90cm",
-        "Temperature": "10°C",
-        "Image": "banner_tempconifer"
+        "Name": "Temperate Coniferous Forest"
+        , "ID": 6
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+        , "Locations": []
+        , "Info": "<p><b>Temperate coniferous forest</b> is a coniferous forest often dominated by evergreen conifers. Conifer forests can be found in coastal areas with mild winters and heavy rainfall, or drier or mountanious climates.</p>Consisting of only two layers of foliage, the understory of these forests are dominated by herbs, grasses and ferns.<p></p><p></p>"
+        , "Elevation": "NA"
+        , "Precipitation": "90cm"
+        , "Temperature": "10°C"
+        , "Image": "banner_tempconifer"
     }
     , {
-        "Name": "Tropical Coniferous Forest",
-        "ID": 7,
-        "Climate": "Tropical",
-        "Type": "Forest",
-        "Subtype": "Coniferous",
-        "Locations": [],
-        "Info": "<p>Tropical and subtropical coniferous forests are a forest biome.</p><p>They are located in regions of humid climate at tropical and subtropical latitudes. Most tropical and subtropical coniferous forest ecoregions are found in the Nearctic and Neotropic ecozones.</p><p>Outside the Americas and the Greater Ranges of Asia they are rare and predominate on islands.</p>",
-        "Elevation": "NA",
-        "Precipitation": "150cm",
-        "Temperature": "18°C"
+        "Name": "Tropical Coniferous Forest"
+        , "ID": 7
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+        , "Locations": []
+        , "Info": "<p><b>Tropical coniferous forest</b> is a coniferous forest found in regions with a tropical or subtropical climate. Most of these forests can be found in the Nearctic and Neotropic ecozones.<p><p>Outside of the Americas and Asia, these forests are more rare and mostly predominate islands whilst being generally absent on the main land.<p>"
+        , "Elevation": "NA"
+        , "Precipitation": "150cm"
+        , "Temperature": "18°C"
     }
     , {
-        "Name": "Temperate Decidous Forest",
-        "ID": 8,
-        "Climate": "Temperate",
-        "Type": "Forest",
-        "Subtype": "Deciduos",
-        "Locations": [],
-        "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>",
-        "Elevation": "NA",
-        "Precipitation": "150cm",
-        "Temperature": "10°C"
+        "Name": "Temperate Decidous Forest"
+        , "ID": 8
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+        , "Locations": []
+        , "Info": "<p><b>Temperate deciduous forest</b> is a deciduous forest found in the region between the tropical and polar regions. A typical aspect of these forests is the inclusion of four seasons, due to their exposure to warm and cold air masses.</p><p>Tons of different trees, plants and shrubs grow in these forests, with the tree-line being predominated by broadleaf trees such as oaks, beeches, chestnuts and maples.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "150cm"
+        , "Temperature": "10°C"
     }
     , {
-        "Name": "Tropical Evergreen Rainforest",
-        "ID": 9,
-        "Climate": "Tropical",
-        "Type": "Forest",
-        "Subtype": "Deciduos",
-        "Locations": [],
-        "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>",
-        "Elevation": "< 1000m",
-        "Precipitation": "168 cm",
-        "Temperature": "27°C",
-        "Image": "banner_rainforest"
+        "Name": "Tropical Evergreen Rainforest"
+        , "ID": 9
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+        , "Locations": []
+        , "Info": "<p>Temperate deciduous forests are located in the mid-latitude areas which means that they are found between the polar regions and the tropics.</p><p>The deciduous forest regions are exposed to warm and cold air masses, which cause this area to have four seasons.</p><p>Many different kinds of trees, shrubs, and herbs grow in deciduous forests. Most of the trees are broadleaf trees such as oak, maple, beech, hickory and chestnut. </p>"
+        , "Elevation": "< 1000m"
+        , "Precipitation": "168 cm"
+        , "Temperature": "27°C"
+        , "Image": "banner_rainforest"
     }
     , {
-        "Name": "Temperate Evergreen Rainforest",
-        "ID": 10,
-        "Climate": "Temperate",
-        "Type": "Forest",
-        "Subtype": "Mixed",
-        "Elevation": "< 2000m",
-        "Precipitation": "140 cm"
+        "Name": "Temperate Evergreen Rainforest"
+        , "ID": 10
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+        , "Elevation": "< 2000m"
+        , "Precipitation": "140 cm"
     }
     , {
-        "Name": "Tropical Dry Forest",
-        "ID": 11,
-        "Climate": "Tropical",
-        "Type": "Forest",
-        "Subtype": "Deciduos",
-        "Elevation": "< 1000m",
-        "Precipitation": "177cm",
-        "Temperature": "23°C"
+        "Name": "Tropical Dry Forest"
+        , "ID": 11
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+        , "Elevation": "< 1000m"
+        , "Precipitation": "177cm"
+        , "Temperature": "23°C"
     }
     , {
-        "Name": "Eucalypt Dry Forest",
-        "ID": 12,
-        "Climate": "Tropical",
-        "Type": "Forest",
-        "Subtype": "Deciduos",
-        "Elevation": "NA",
-        "Precipitation": "100cm",
-        "Temperature": "17.5°C"
+        "Name": "Eucalypt Dry Forest"
+        , "ID": 12
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Deciduos"
+        , "Elevation": "NA"
+        , "Precipitation": "100cm"
+        , "Temperature": "17.5°C"
     }
     , {
-        "Name": "Maritime Forest",
-        "ID": 13,
-        "Climate": "Temperate",
-        "Type": "Forest",
-        "Subtype": "Mixed",
-        "Elevation": "NA",
-        "Precipitation": "131cm",
-        "Temperature": "12°C"
+        "Name": "Maritime Forest"
+        , "ID": 13
+        , "Climate": "Temperate"
+        , "Type": "Forest"
+        , "Subtype": "Mixed"
+        , "Elevation": "NA"
+        , "Precipitation": "131cm"
+        , "Temperature": "12°C"
     }
     , {
-        "Name": "Temperate Scrubland",
-        "ID": 14,
-        "Climate": "Temperate",
-        "Type": "Scrubland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "22cm",
-        "Temperature": "16°C"
+        "Name": "Temperate Scrubland"
+        , "ID": 14
+        , "Climate": "Temperate"
+        , "Type": "Scrubland"
+        , "Subtype": "Grass"
+        , "Location ": []
+        , "Info": "<p><b>Temperate scrubland</b> is a scrubland found in regions with a temperate climate. Typically it's considered to be a transition biome between temperate grasslands and forests.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "22cm"
+        , "Temperature": "16°C"
+        , "OtherNames": ["Heath"]
     }
     , {
-        "Name": "Tropical Scrubland",
-        "ID": 15,
-        "Climate": "Tropical",
-        "Type": "Scrubland",
-        "Subtype": "Grass",
-        "Elevation": "NA"
+        "Name": "Tropical Scrubland"
+        , "ID": 15
+        , "Climate": "Tropical"
+        , "Type": "Scrubland"
+        , "Subtype": "Grass"
+        , "Location ": []
+        , "Info": "<p><b>Tropical scrubland</b> is a scrubland found in regions with a tropical or subtropical climate. Typically it's considered to be a transition biome between tropical grasslands and forests.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Mediterranean Scrubland",
-        "ID": 16,
-        "Climate": "Temperate",
-        "Type": "Scrubland",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "34cm",
-        "Temperature": "18°C"
+        "Name": "Mediterranean Scrubland"
+        , "ID": 16
+        , "Climate": "Temperate"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+        , "Elevation": "NA"
+        , "Precipitation": "34cm"
+        , "Temperature": "18°C"
+        , "OtherNames": ["Chapparal"]
     }
     , {
-        "Name": "Semi-arid Scrubland",
-        "ID": 17,
-        "Climate": "Dry",
-        "Type": "Scrubland",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "6cm",
-        "Temperature": "15°C"
+        "Name": "Semi-arid Scrubland"
+        , "ID": 17
+        , "Climate": "Dry"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+        , "Elevation": "NA"
+        , "Precipitation": "6cm"
+        , "Temperature": "15°C"
     }
     , {
-        "Name": "Lichen Scrubland",
-        "ID": 18,
-        "Climate": "Temperate",
-        "Type": "Scrubland",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "47,5cm",
-        "Temperature": "5°C"
+        "Name": "Lichen Scrubland"
+        , "ID": 18
+        , "Climate": "Temperate"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+        , "Location ": []
+        , "Info": "<p><b>Lichen scrubland</b> is a scrubland found in regions with a cold climate. Typically it's considered to be a transition biome between tundra and coniferous forests.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "47,5cm"
+        , "Temperature": "5°C"
+        , "OtherNames": ["Northern taiga"]
     }
     , {
-        "Name": "Equatorrial Savannah",
-        "ID": 19,
-        "Climate": "Tropical",
-        "Type": "Grassland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "10cm",
-        "Temperature": "25°C",
-        "Image": "banner_savanna"
+        "Name": "Equatorrial Savannah"
+        , "ID": 19
+        , "Climate": "Tropical"
+        , "Type": "Grassland"
+        , "Subtype": "Grass"
+        , "Elevation": "NA"
+        , "Precipitation": "10cm"
+        , "Temperature": "25°C"
+        , "Image": "banner_savanna"
     }
     , {
-        "Name": "Terrai-Duar Savannah",
-        "ID": 20,
-        "Climate": "Tropical",
-        "Type": "Grassland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "18cm",
-        "Temperature": "25°C"
+        "Name": "Terrai-Duar Savannah"
+        , "ID": 20
+        , "Climate": "Tropical"
+        , "Type": "Grassland"
+        , "Subtype": "Grass"
+        , "Elevation": "NA"
+        , "Precipitation": "18cm"
+        , "Temperature": "25°C"
     }
     , {
-        "Name": "Cerrado",
-        "ID": 21,
-        "Climate": "Tropical",
-        "Type": "Grassland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "14cm",
-        "Temperature": "24.5°C",
-        "Image": "banner_cerrado"
+        "Name": "Cerrado"
+        , "ID": 21
+        , "Climate": "Tropical"
+        , "Type": "Grassland"
+        , "Subtype": "Grass"
+        , "Elevation": "NA"
+        , "Precipitation": "14cm"
+        , "Temperature": "24.5°C"
+        , "Image": "banner_cerrado"
     }
     , {
-        "Name": "Temperate Grassland",
-        "ID": 22,
-        "Climate": "Temperate",
-        "Type": "Grassland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "17.5cm",
-        "Temperature": "15°C"
+        "Name": "Temperate Grassland"
+        , "ID": 22
+        , "Climate": "Temperate"
+        , "Type": "Grassland"
+        , "Subtype": "Grass"
+        , "Elevation": "NA"
+        , "Precipitation": "17.5cm"
+        , "Temperature": "15°C"
     }
     , {
-        "Name": "Prairie",
-        "ID": 23,
-        "Climate": "Temperate",
-        "Type": "Grassland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "7cm",
-        "Temperature": "16°C"
+        "Name": "Prairie"
+        , "ID": 23
+        , "Climate": "Temperate"
+        , "Type": "Grassland"
+        , "Subtype": "Grass"
+        , "Elevation": "NA"
+        , "Precipitation": "7cm"
+        , "Temperature": "16°C"
     }
     , {
-        "Name": "Steppe",
-        "ID": 24,
-        "Climate": "Temperate",
-        "Type": "Grassland",
-        "Subtype": "Grass",
-        "Elevation": "NA",
-        "Precipitation": "26cm",
-        "Temperature": "21°C"
+        "Name": "Steppe"
+        , "ID": 24
+        , "Climate": "Temperate"
+        , "Type": "Grassland"
+        , "Subtype": "Grass"
+        , "Elevation": "NA"
+        , "Precipitation": "26cm"
+        , "Temperature": "21°C"
     }
     , {
-        "Name": "Arctic Tundra",
-        "ID": 25,
-        "Climate": "Cold",
-        "Type": "Tundra",
-        "Subtype": "Ice",
-        "Elevation": "NA",
-        "Precipitation": "20cm",
-        "Temperature": "-13°C",
-        "Image": "banner_tundra"
+        "Name": "Arctic Tundra"
+        , "ID": 25
+        , "Climate": "Cold"
+        , "Type": "Tundra"
+        , "Subtype": "Ice"
+        , "Elevation": "NA"
+        , "Precipitation": "20cm"
+        , "Temperature": "-13°C"
+        , "Image": "banner_tundra"
     }
     , {
-        "Name": "Semi-Arid Desert",
-        "ID": 26,
-        "Climate": "Dry",
-        "Type": "Desert",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "3cm",
-        "Temperature": "24°C"
+        "Name": "Semi-Arid Desert"
+        , "ID": 26
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+        , "Elevation": "NA"
+        , "Precipitation": "3cm"
+        , "Temperature": "24°C"
     }
     , {
-        "Name": "Arid-Desert",
-        "ID": 27,
-        "Climate": "Dry",
-        "Type": "Desert",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "1.5cm",
-        "Temperature": "29°C"
+        "Name": "Arid-Desert"
+        , "ID": 27
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+        , "Elevation": "NA"
+        , "Precipitation": "1.5cm"
+        , "Temperature": "29°C"
     }
     , {
-        "Name": "Coastal Desert",
-        "ID": 28,
-        "Climate": "Dry",
-        "Type": "Desert",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "10.5cm",
-        "Temperature": "24.5°C"
+        "Name": "Coastal Desert"
+        , "ID": 28
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+        , "Elevation": "NA"
+        , "Precipitation": "10.5cm"
+        , "Temperature": "24.5°C"
     }
     , {
-        "Name": "Red Desert",
-        "ID": 29,
-        "Climate": "Dry",
-        "Type": "Desert",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "2.7cm",
-        "Temperature": "26°C"
+        "Name": "Red Desert"
+        , "ID": 29
+        , "Climate": "Dry"
+        , "Type": "Desert"
+        , "Subtype": "x"
+        , "Elevation": "NA"
+        , "Precipitation": "2.7cm"
+        , "Temperature": "26°C"
     }
     , {
-        "Name": "Cold Desert",
-        "ID": 30,
-        "Climate": "Cold",
-        "Type": "Desert",
-        "Subtype": "x",
-        "Elevation": "NA",
-        "Precipitation": "22.5cm",
-        "Temperature": "23°C",
-        "Image": "banner_colddesert"
+        "Name": "Cold Desert"
+        , "ID": 30
+        , "Climate": "Cold"
+        , "Type": "Desert"
+        , "Subtype": "x"
+        ,"Location":["Gobi desert"]
+        , "Elevation": "NA"
+        , "Precipitation": "22.5cm"
+        , "Temperature": "23°C"
+        , "Image": "banner_colddesert"
     }
     , {
-        "Name": "Polar Desert",
-        "ID": 31,
-        "Climate": "Cold",
-        "Type": "Desert",
-        "Subtype": "Ice",
-        "Elevation": "NA",
-        "Precipitation": "2.5cm",
-        "Temperature": "-28°C",
-        "Image": "banner_polardesert"
+        "Name": "Polar Desert"
+        , "ID": 31
+        , "Climate": "Cold"
+        , "Type": "Desert"
+        , "Subtype": "Ice"
+        , "Location": ["Arctic","Antarctic"]
+        , "Elevation": "NA"
+        , "Precipitation": "2.5cm"
+        , "Temperature": "-28°C"
+        , "Image": "banner_polardesert"
+        , "OtherNames": ["Ice-pack"]
     }
     , {
-        "Name": "Freshwater Marsh",
-        "ID": 32,
-        "Climate": "Mixed",
-        "Type": "Marsh",
-        "Subtype": "Freshwater",
-        "Elevation": "NA",
-        "Precipitation": "187cm",
-        "Temperature": "24°C"
+        "Name": "Freshwater Marsh"
+        , "ID": 32
+        , "Climate": "Mixed"
+        , "Type": "Marsh"
+        , "Subtype": "Freshwater"
+        , "Elevation": "NA"
+        , "Precipitation": "187cm"
+        , "Temperature": "24°C"
+        , "OtherNames": ["Riverine","Litoral"]
     }
     , {
-        "Name": "Saltwater Marsh",
-        "ID": 33,
-        "Climate": "Temperate",
-        "Type": "Marsh",
-        "Subtype": "Saltwater",
-        "Elevation": "NA",
-        "Precipitation": "187cm",
-        "Temperature": "14°C"
+        "Name": "Saltwater Marsh"
+        , "ID": 33
+        , "Climate": "Temperate"
+        , "Type": "Marsh"
+        , "Subtype": "Saltwater"
+        , "Elevation": "NA"
+        , "Precipitation": "187cm"
+        , "Temperature": "14°C"
     }
     , {
-        "Name": "Tropical Floodplain",
-        "ID": 34,
-        "Climate": "Tropical",
-        "Type": "Floodplain",
-        "Subtype": "Freshwater",
-        "Elevation": "NA",
-        "Precipitation": "113cm",
-        "Temperature": "24°C"
+        "Name": "Tropical Floodplain"
+        , "ID": 34
+        , "Climate": "Tropical"
+        , "Type": "Floodplain"
+        , "Subtype": "Freshwater"
+        , "Location ": []
+        , "Info": "<p><b>Tropical floodplain</b> is a floodplain found in regions with a tropical or subtropical climate. Typically it's considered to be a transition biome between freshwater marshes and tropical grasslands.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "113cm"
+        , "Temperature": "24°C"
+        , "OtherNames": ["Patanal"]
     }
     , {
-        "Name": "Temperate Floodplain",
-        "ID": 35,
-        "Climate": "Temperate",
-        "Type": "Floodplain",
-        "Subtype": "Freshwater",
-        "Elevation": "NA",
-        "Precipitation": "15cm",
-        "Temperature": "8°C"
+        "Name": "Temperate Floodplain"
+        , "ID": 35
+        , "Climate": "Temperate"
+        , "Type": "Floodplain"
+        , "Subtype": "Freshwater"
+        , "Location ": []
+        , "Info": "<p><b>Temperate floodplain</b> is a floodplain found in regions with a temperate climate. Typically it's considered to be a transition biome between freshwater marshes and temperate grasslands.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "15cm"
+        , "Temperature": "8°C"
+        , "OtherNames": ["Bog","Peat","Moorland"]
     }
     , {
-        "Name": "Mudflat",
-        "ID": 36,
-        "Climate": "Mixed",
-        "Type": "Floodplain",
-        "Subtype": "Freshwater",
-        "Elevation": "NA",
-        "Info": "<p><b>Mudflat</b> or tidal flats are a form of coastal wetlands caused by mud deposited by tides or rivers. They are often found in sheltered areas such as lagoons and bays.</p><p>An important ecosystem, mudflats usually support a large population of wildlife and are key to the survival of several species of migratory shorebirds, as well as certain species of crabs, molluks and fish.</p>",
-        "Image": "banner_mudflat"
+        "Name": "Mudflat"
+        , "ID": 36
+        , "Climate": "Mixed"
+        , "Type": "Floodplain"
+        , "Subtype": "Freshwater"
+        , "Elevation": "NA"
+        , "Info": "<p><b>Mudflat</b> or tidal flats are a form of coastal wetlands caused by mud deposited by tides or rivers. They are often found in sheltered areas such as lagoons and bays.</p><p>An important ecosystem, mudflats usually support a large population of wildlife and are key to the survival of several species of migratory shorebirds, as well as certain species of crabs, molluks and fish.</p>"
+        , "Image": "banner_mudflat"
     }
     , {
-        "Name": "Palustrine Swamp",
-        "ID": 37,
-        "Climate": "Mixed",
-        "Type": "Swamp",
-        "Subtype": "Freshwater",
-        "Elevation": "NA",
-        "Precipitation": "187cm",
-        "Temperature": "25°C"
+        "Name": "Palustrine Swamp"
+        , "ID": 37
+        , "Climate": "Mixed"
+        , "Type": "Swamp"
+        , "Subtype": "Freshwater"
+        , "Location ": ["Everglades"]
+        , "Info": "<p><b>Palustrine swamp</b> is a swamp found in regions with a climate.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "187cm"
+        , "Temperature": "25°C"
     }
     , {
-        "Name": "Coastal Swamp",
-        "ID": 38,
-        "Climate": "Tropical",
-        "Type": "Swamp",
-        "Subtype": "Saltwater",
-        "Elevation": "NA",
-        "Precipitation": "187cm",
-        "Temperature": "25°C"
+        "Name": "Coastal Swamp"
+        , "ID": 38
+        , "Climate": "Tropical"
+        , "Type": "Swamp"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Coastal swamp</b> is a swamp found in coastal regions with a tropical or subtropical climate.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "187cm"
+        , "Temperature": "25°C"
+        , "OtherNames": ["Mangroves"]
     }
     , {
-        "Name": "Temperate Coastal Plain",
-        "ID": 39,
-        "Climate": "Temperate",
-        "Type": "Coastal",
-        "Subtype": "Saltwater",
-        "Elevation": "NA",
-        "Precipitation": "78cm",
-        "Temperature": "9°C"
+        "Name": "Temperate Coastal Plain"
+        , "ID": 39
+        , "Climate": "Temperate"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Temperate coastal plain</b> is a coastal plain found in regions with a temperate climate. Typically it's considered to be a transition biome between temperate oceans and coasts.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "78cm"
+        , "Temperature": "9°C"
     }
     , {
-        "Name": "Tropical Coastal Plain",
-        "ID": 40,
-        "Climate": "Tropical",
-        "Type": "Coastal",
-        "Subtype": "Saltwater",
-        "Elevation": "NA",
-        "Precipitation": "78cm",
-        "Temperature": "16°C"
+        "Name": "Tropical Coastal Plain"
+        , "ID": 40
+        , "Climate": "Tropical"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Tropical coastal plain</b> is a coastal plain found in regions with a tropical or subtropical climate. Typically it's considered to be a transition biome between tropical oceans and coasts.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "78cm"
+        , "Temperature": "16°C"
     }
     , {
-        "Name": "Arctic Coastal Plain",
-        "ID": 41,
-        "Climate": "Cold",
-        "Type": "Coastal",
-        "Subtype": "Saltwater",
-        "Elevation": "NA",
-        "Precipitation": "2cm",
-        "Temperature": "4.5°C"
+        "Name": "Arctic Coastal Plain"
+        , "ID": 41
+        , "Climate": "Cold"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Arctic coastal plain</b> is a coastal plain found in regions with a temperate climate. Typically it's considered to be a transition biome between polar oceans and arctic tundras.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "2cm"
+        , "Temperature": "4.5°C"
     }
     , {
-        "Name": "Temperate Coast",
-        "ID": 42,
-        "Climate": "Temperate",
-        "Type": "Coastal",
-        "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Name": "Temperate Coast"
+        , "ID": 42
+        , "Climate": "Temperate"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Temperate coast</b> is a coastal area found in regions with a temperate climate.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Tropical Coast",
-        "ID": 43,
-        "Climate": "Tropical",
-        "Type": "Coastal",
-        "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Name": "Tropical Coast"
+        , "ID": 43
+        , "Climate": "Tropical"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Tropical coast</b> is a coastal area found in regions with a tropical or subtropical climate.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Rocky Coast",
-        "ID": 44,
-        "Climate": "Mixed",
-        "Type": "Coastal",
-        "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Name": "Rocky Coast"
+        , "ID": 44
+        , "Climate": "Mixed"
+        , "Type": "Coastal"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Rocky coast</b> is a coastal area found in coastal regions dominated by natural erosion.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Tropical Ocean",
-        "ID": 45,
-        "Climate": "Tropical",
-        "Type": "Marine",
-        "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Name": "Tropical Ocean"
+        , "ID": 45
+        , "Climate": "Tropical"
+        , "Type": "Marine"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Tropical ocean</b> is an ocean-zone found in regions with a tropical or subtropical climate.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Temperate Ocean",
-        "ID": 46,
-        "Climate": "Temperate",
-        "Type": "Marine",
-        "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Name": "Temperate Ocean"
+        , "ID": 46
+        , "Climate": "Temperate"
+        , "Type": "Marine"
+        , "Subtype": "Saltwater"
+        , "Location ": []
+        , "Info": "<p><b>Temperate ocean</b> is an ocean-zone found in regions with a temperate climate.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Benthic",
-        "ID": 47,
-        "Climate": "Mixed",
-        "Type": "Marine",
-        "Subtype": "Saltwater",
-        "Elevation": "NA"
+        "Name": "Benthic"
+        , "ID": 47
+        , "Climate": "Mixed"
+        , "Type": "Marine"
+        , "Subtype": "Saltwater"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Tropical Volcanic Forest",
-        "ID": 48,
-        "Climate": "Tropical",
-        "Type": "Forest",
-        "Subtype": "Coniferous",
-        "Elevation": "NA"
+        "Name": "Tropical Volcanic Forest"
+        , "ID": 48
+        , "Climate": "Tropical"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+        , "Location ": []
+        , "Info": "<p><b>Tropical Volcanic Forest</b> is a coniferous forest found in regions with a tropical or subtropical climate near volcanoes.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Fern Plain",
-        "ID": 49,
-        "Climate": "Mixed",
-        "Subtype": "Fern",
-        "Elevation": "NA"
+        "Name": "Fern Plain"
+        , "ID": 49
+        , "Climate": "Mixed"
+        , "Subtype": "Fern"
+        , "Location ": []
+        , "Info": "<p><b>Fern plain</b> is a plain found in regions with a tropical or subtropical climate.</p>"
+        , "Elevation": "NA"
     }
     , {
-        "Name": "Polar Forest",
-        "ID": 50,
-        "Climate": "Cold",
-        "Type": "Forest",
-        "Subtype": "Coniferous",
-        "Elevation": "NA"
+        "Name": "Polar Forest"
+        , "ID": 50
+        , "Climate": "Cold"
+        , "Type": "Forest"
+        , "Subtype": "Coniferous"
+        , "Elevation": "NA"
     }
 
 ]

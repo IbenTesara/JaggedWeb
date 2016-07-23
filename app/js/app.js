@@ -1,1 +1,1 @@
-var app = angular.module('JFDApp', ['ngAnimate', 'ngRoute', 'ngSanitize', 'angularModalService']);
+var app = angular.module('JFDApp', [ 'ngRoute', 'ngSanitize', 'angularModalService']);
