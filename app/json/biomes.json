@@ -66,7 +66,7 @@
         , "Type": "Forest"
         , "Subtype": "Coniferous"
         , "Locations": []
-        , "Info": "<p><b>Temperate coniferous forest</b> is a coniferous forest often dominated by evergreen conifers. Conifer forests can be found in coastal areas with mild winters and heavy rainfall, or drier or mountanious climates.</p>Consisting of only two layers of foliage, the understory of these forests are dominated by herbs, grasses and ferns.<p></p><p></p>"
+        , "Info": "<p><b>Temperate coniferous forest</b> is a coniferous forest found in regions with a temperate or cold climate. Typically conifer forests can be found in coastal areas with mild winters and heavy rainfall, or drier or mountanious areas.</p>Consisting of only two layers of foliage, the understory of these forests is dominated by herbs, grasses and ferns.<p></p><p></p>"
         , "Elevation": "NA"
         , "Precipitation": "90cm"
         , "Temperature": "10°C"
@@ -91,13 +91,13 @@
         , "Type": "Forest"
         , "Subtype": "Deciduos"
         , "Locations": []
-        , "Info": "<p><b>Temperate deciduous forest</b> is a deciduous forest found in the region between the tropical and polar regions. A typical aspect of these forests is the inclusion of four seasons, due to their exposure to warm and cold air masses.</p><p>Tons of different trees, plants and shrubs grow in these forests, with the tree-line being predominated by broadleaf trees such as oaks, beeches, chestnuts and maples.</p>"
+        , "Info": "<p><b>Temperate deciduous forest</b> is a deciduous forest found in regions with a temperate climate. A typical aspect of these forests is the inclusion of four seasons, due to their exposure to warm and cold air masses.</p><p>Tons of different trees, plants and shrubs grow in these forests, with the tree-line being predominated by broadleaf trees such as oaks, beeches, chestnuts and maples.</p>"
         , "Elevation": "NA"
         , "Precipitation": "150cm"
         , "Temperature": "10°C"
     }
     , {
-        "Name": "Tropical Evergreen Rainforest"
+        "Name": "Tropical Rainforest"
         , "ID": 9
         , "Climate": "Tropical"
         , "Type": "Forest"
@@ -110,7 +110,7 @@
         , "Image": "banner_rainforest"
     }
     , {
-        "Name": "Temperate Evergreen Rainforest"
+        "Name": "Temperate Rainforest"
         , "ID": 10
         , "Climate": "Temperate"
         , "Type": "Forest"
@@ -159,7 +159,7 @@
         , "Elevation": "NA"
         , "Precipitation": "22cm"
         , "Temperature": "16°C"
-        , "OtherNames": ["Heath"]
+        , "OtherNames": ["Heath","Heatland","Moorland","Dwarf schrubland","Fynbos"]
     }
     , {
         "Name": "Tropical Scrubland"
@@ -180,7 +180,7 @@
         , "Elevation": "NA"
         , "Precipitation": "34cm"
         , "Temperature": "18°C"
-        , "OtherNames": ["Chapparal"]
+        , "OtherNames": ["Chapparal","Garrigue", "Phrygana","Tomillares","Batha","Strandveld"]
     }
     , {
         "Name": "Semi-arid Scrubland"
@@ -188,9 +188,11 @@
         , "Climate": "Dry"
         , "Type": "Scrubland"
         , "Subtype": "x"
+        , "Info": "<p><b>Semi-arid scrubland</b> is a scrubland found in regions with a semi-arid climate. Typically it's considered to be a transition biome between desert scrulands and tropical grasslands or dry forests.</p>"
         , "Elevation": "NA"
         , "Precipitation": "6cm"
         , "Temperature": "15°C"
+        , "OtherNames": ["Interior scrubland","Florida scrub"]
     }
     , {
         "Name": "Lichen Scrubland"
@@ -206,8 +208,21 @@
         , "OtherNames": ["Northern taiga"]
     }
     , {
-        "Name": "Equatorrial Savannah"
+        "Name": "Desert Scrubland"
         , "ID": 19
+        , "Climate": "Dry"
+        , "Type": "Scrubland"
+        , "Subtype": "x"
+        , "Location ": []
+        , "Info": "<p><b>Desert scrubland</b> is a scrubland found in regions with a arid climate. Typically it's considered to be a transition biome between desert and semi-arid scrublands.</p>"
+        , "Elevation": "NA"
+        , "Precipitation": "47,5cm"
+        , "Temperature": "5°C"
+        , "OtherNames": ["Xeric scrubland"]
+    }
+    , {
+        "Name": "Equatorrial Savannah"
+        , "ID": 20
         , "Climate": "Tropical"
         , "Type": "Grassland"
         , "Subtype": "Grass"
@@ -218,7 +233,7 @@
     }
     , {
         "Name": "Terrai-Duar Savannah"
-        , "ID": 20
+        , "ID": 21
         , "Climate": "Tropical"
         , "Type": "Grassland"
         , "Subtype": "Grass"
@@ -228,7 +243,7 @@
     }
     , {
         "Name": "Cerrado"
-        , "ID": 21
+        , "ID": 22
         , "Climate": "Tropical"
         , "Type": "Grassland"
         , "Subtype": "Grass"
@@ -239,7 +254,7 @@
     }
     , {
         "Name": "Temperate Grassland"
-        , "ID": 22
+        , "ID": 23
         , "Climate": "Temperate"
         , "Type": "Grassland"
         , "Subtype": "Grass"
@@ -248,19 +263,9 @@
         , "Temperature": "15°C"
     }
     , {
-        "Name": "Prairie"
-        , "ID": 23
-        , "Climate": "Temperate"
-        , "Type": "Grassland"
-        , "Subtype": "Grass"
-        , "Elevation": "NA"
-        , "Precipitation": "7cm"
-        , "Temperature": "16°C"
-    }
-    , {
         "Name": "Steppe"
         , "ID": 24
-        , "Climate": "Temperate"
+        , "Climate": "Cold"
         , "Type": "Grassland"
         , "Subtype": "Grass"
         , "Elevation": "NA"
@@ -289,7 +294,7 @@
         , "Temperature": "24°C"
     }
     , {
-        "Name": "Arid-Desert"
+        "Name": "Arid Desert"
         , "ID": 27
         , "Climate": "Dry"
         , "Type": "Desert"
@@ -304,6 +309,7 @@
         , "Climate": "Dry"
         , "Type": "Desert"
         , "Subtype": "x"
+        ,"Location":["Atacama desert"]
         , "Elevation": "NA"
         , "Precipitation": "10.5cm"
         , "Temperature": "24.5°C"

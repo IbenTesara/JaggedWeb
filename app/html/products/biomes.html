@@ -17,49 +17,34 @@
     <div id="biome-list" class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
         <ul>
             <li ng-repeat="biome in biomes | orderBy: '+Climate' | filter:searchBox">
-                <div class="{{biome.Climate}}">{{biome.Climate}}</div>
-                <a href="" ng-click="getBiome(biome.ID)">{{biome.Name}}</a>
-            </li>
+                <div class="{{biome.Climate}}">{{biome.Climate}}</div> <a href="" ng-click="getBiome(biome.ID)">{{biome.Name}}</a> </li>
         </ul>
     </div>
     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-6" id="biome-info">
         <div class="panel panel-default">
             <div class="panel-heading">
                 <ul class="nav nav-tabs">
-                    <li>
-                        <a href="" ng-click="setCurrentDiv('info')"><span class="glyphicon glyphicon-info-sign"></span> Info</a>
-                    </li>
-                    <li>
-                        <a href="" ng-click="setCurrentDiv('photo')"><span class="glyphicon glyphicon-camera"></span> Photos</a>
-                    </li>
-                    <li>
-                        <a href="" ng-click="setCurrentDiv('locations')"><span class="glyphicon glyphicon-globe"></span> Locations</a>
-                    </li>
+                    <li> <a href="" ng-click="setCurrentDiv('info')"><span class="glyphicon glyphicon-info-sign"></span> Info</a> </li>
+                    <li> <a href="" ng-click="setCurrentDiv('photo')"><span class="glyphicon glyphicon-camera"></span> Photos</a> </li>
+                    <li> <a href="" ng-click="setCurrentDiv('locations')"><span class="glyphicon glyphicon-globe"></span> Locations</a> </li>
                 </ul>
             </div>
             <div class="panel-body">
-                <div ng-if="currentDiv==='info'">
-                    <img class="biome-preview" src="../../images/biomes/{{currentBiome.Image}}.png">
+                <div ng-if="currentDiv==='info'"> <img class="biome-preview" src="../../images/biomes/{{currentBiome.Image}}.png">
                     <h3>
                     {{currentBiome.Name}}</h3>
-                    <div class="{{currentBiome.Climate}}" id="climate">
-                        <span ng-if="currentBiome.Climate==='Cold'" class="ion-ios-snowy"></span> {{currentBiome.Climate}}
-                    </div>
-                    <div id="type">
-                        <span ng-if="currentBiome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span>
-                        <span ng-if="currentBiome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span>
-                        <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span>
-                        <span ng-if="currentBiome.Subtype=='Grass'" class="glyphicon glyphicon-grain"></span>
-                        <span ng-if="currentBiome.Subtype=='Ice'" class="ion-ios-snowy"></span> {{currentBiome.Type}}
-                    </div>
+                    <div class="{{currentBiome.Climate}}" id="climate"> <span ng-if="currentBiome.Climate==='Cold'" class="ion-ios-snowy"></span> {{currentBiome.Climate}} </div>
+                    <div id="type"> <span ng-if="currentBiome.Subtype=='Coniferous'" class="glyphicon glyphicon-tree-conifer"></span> <span ng-if="currentBiome.Subtype=='Deciduos'" class="glyphicon glyphicon-tree-deciduous"></span> <span ng-if="currentBiome.Subtype=='Mixed'" class="glyphicon glyphicon-leaf"></span> <span ng-if="currentBiome.Subtype=='Grass'" class="glyphicon glyphicon-grain"></span> <span ng-if="currentBiome.Subtype=='Ice'" class="ion-ios-snowy"></span> {{currentBiome.Type}} </div>
                     <div id="elevation">{{currentBiome.Elevation}}</div>
                     <div id="precipitation"><span class="glyphicon glyphicon-tint"></span>{{currentBiome.Precipitation}}</div>
                     <div id="temperature"><span class="glyphicon glyphicon-dashboard"></span>{{currentBiome.Temperature}}</div>
                     <hr>
-                    <div ng-bind-html="currentBiome.Info">
-                    <ul ng-if="currentBiome.OtherNames != null">
-                        <li ng-repeat="name in currentBiome.OtherNames">{{name}}</li>
-                    </ul>
+                    <div ng-bind-html="currentBiome.Info"> </div>
+                    <div id="alternate_names" ng-if="currentBiome.OtherNames != null">
+                        <p><b>Also known as : </b></p>
+                        <ul class="comma_list">
+                            <li ng-repeat="name in currentBiome.OtherNames">{{name}}</li>
+                        </ul>
                     </div>
                 </div>
                 <div ng-if="currentDiv==='photo'">y</div>
@@ -75,10 +60,8 @@
         <div class="panel panel-default">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 class="panel-title">Facts</h3>
-                </div>
-                <div class="panel-body">
-                </div>
+                    <h3 class="panel-title">Facts</h3> </div>
+                <div class="panel-body"> </div>
             </div>
         </div>
     </div>

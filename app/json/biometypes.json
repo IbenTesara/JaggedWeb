@@ -1,17 +1,123 @@
 [
     {
-        Name: "Forest",
-        Type: "Decidous",
-        Vegetation: "",
-        Undergrowth: "Dead leaves, small shrubs and fungae",
-        Info: ""
+        Name: "Forest"
+        , Type: "Decidous"
+        , Vegetation: ""
+        , Undergrowth: "Dead leaves, small shrubs and fungae"
+        , Info: "<b>Decidous forest</b> is a type of biome"
+        , More : []
     },
     {
-        Name: "Tundra",
-        Type: "Polar",
-        Vegetation: "",
-        Undergrowth: "Grasses, sedges, mosses and lichens",
-        Info: "<b>Tundra<b> is a type of biome where the tree growth is hindered by low temperatures and short growing seasons. ",
-        More: ["<b>Arctic tundra<b/> occurs in the far Northern Hemisphere, north of the taiga belt. The word \"tundra\" usually refers only to the areas where the subsoil is permafrost, or permanently frozen soil. (It may also refer to the treeless plain in general, so that northern Sápmi would be included.) Permafrost tundra includes vast areas of northern Russia and Canada.", "Antarctic tundra occurs on Antarctica and on several Antarctic and subantarctic islands, including South Georgia and the South Sandwich Islands and the Kerguelen Islands. Most of Antarctica is too cold and dry to support vegetation, and most of the continent is covered by ice fields. However, some portions of the continent, particularly the Antarctic Peninsula, have areas of rocky soil that support plant life."]
+        Name: "Forest"
+        , Type : "Coniferous"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info : "<b>Coniferous forest</b> is a type of biome"
+        , More : []
+    }
+    ,{
+        Name: "Forest"
+        , Type : "Mixed"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info: "<b>Mixed forest</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Tundra"
+        , Type: "Polar"
+        , Vegetation: ""
+        , Undergrowth: "Grasses, sedges, mosses and lichens"
+        , Info: "<b>Tundra<b> is a type of biome where the tree growth is hindered by low temperatures and short growing seasons. "
+        , More: ["<b>Arctic tundra<b/> occurs in the far Northern Hemisphere, north of the taiga belt. The word \"tundra\" usually refers only to the areas where the subsoil is permafrost, or permanently frozen soil. (It may also refer to the treeless plain in general, so that northern Sápmi would be included.) Permafrost tundra includes vast areas of northern Russia and Canada.", "Antarctic tundra occurs on Antarctica and on several Antarctic and subantarctic islands, including South Georgia and the South Sandwich Islands and the Kerguelen Islands. Most of Antarctica is too cold and dry to support vegetation, and most of the continent is covered by ice fields. However, some portions of the continent, particularly the Antarctic Peninsula, have areas of rocky soil that support plant life."]
+    }
+    , {
+        Name: "Scrubland"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Scrubland</b> is a type of biome forming the boundary between grasslands and forests."
+        , More : []
+    }
+    , {
+        Name: "Tundra"
+        , Type: "Alpine"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Alpine tundra</b> is a type of biome occuring above the treeline, where the tree growth is hidnered by low temperatures and short growing seasons."
+        , More : []
+    }
+    , {
+        Name: "Grassland"
+        , Type: "Tropical"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Tropical grassland</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Grassland"
+        , Type: "Temperate"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Temperate grassland</b> is a type of biome"
+        , More : []
+    }
+    ,{
+        Name: "Plain"
+        , Type : "Fern"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info : "<b>Fern plain</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Floodplain"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Floodplain</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Marsh"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Marsh</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Swamp"
+        , Vegetation: ""
+        , Undergrowth: ""
+        , Info: "<b>Swamp</b> is a type of biome"
+        , More : []
+    }
+    ,{
+        Name : "Desert"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info : "<b>Desert</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Plain"
+        , Type : "Coastal"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info : "<b>Coastal plain</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Coast"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info: "<b>Coast</b> is a type of biome"
+        , More : []
+    }
+    , {
+        Name: "Ocean"
+        , Vegetation : ""
+        , Undergrowth : ""
+        , Info : "<b>Ocean</b> is a type of biome"
+        , More : []
     }
 ]
